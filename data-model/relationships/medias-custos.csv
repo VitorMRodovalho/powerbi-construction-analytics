@@ -1,0 +1,34 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+Concorrências,data,,,1,M:1,Single,11,,0
+INCC,data,,,1,M:1,Single,113,,0
+IPCA,data,,,1,M:1,Single,128,,0
+Concorrências,categoria,Categorias de Serviços,id,1,M:1,Single,6,,0
+Fornecedores - Concorrências e Vitórias,categoria,Categorias de Serviços,id,1,M:1,Single,6,,0
+Índice INCC Concorrência,id_concorrencia,Concorrências,id,1,1:1,Both,17,17.0,0
+Índice IPCA Concorrência,id_concorrencia,Concorrências,id,1,1:1,Both,17,17.0,0
+Concorrências,id_loteamento,Loteamentos,id,1,M:1,Single,14,,0
+Orçamentos,concorrencia,Concorrências,id,1,M:1,Single,17,,0
+Participantes das Concorrências,id_concorrencia,Concorrências,id,1,M:1,Single,17,,0
+Quantidade de Subserviço por Concorrência,id_concorrencia,Concorrências,id,1,M:1,Single,17,,0
+Vencedores das Concorrências,id_concorrencia,Concorrências,id,1,1:1,Both,14,17.0,0
+Orçamentos,codigo_de_subservico,EAP,codigo_de_subservico,1,M:1,Single,58,,0
+Quantidade de Subserviço por Concorrência,codigo_de_subservico,EAP,codigo_de_subservico,1,M:1,Single,59,,0
+EAP,codigo_de_servico,Serviços EAP,codigo_de_servico,1,M:1,Single,24,,0
+Fornecedores - Concorrências e Vitórias,id_fornecedor,Fornecedores,id,1,M:1,Single,44,,0
+Orçamentos,fornecedor,Fornecedores,id,1,M:1,Single,44,,0
+Participantes das Concorrências,id_fornecedor,Fornecedores,id,1,M:1,Single,44,,0
+Vencedores das Concorrências,id_fornecedor,Fornecedores,id,0,M:1,Both,11,,0
+Índice INCC Concorrência,indice_incc,INCC,indice,1,M:1,Both,11,,0
+Índice IPCA Concorrência,indice_ipca,IPCA,indice,1,M:1,Both,11,,0
+Orçamentos vencedores,,EAP,codigo_de_subservico,1,M:1,Single,46,,0
+Orçamentos vencedores,,Concorrências,id,1,M:1,Single,14,,0
+Orçamentos vencedores,,Fornecedores,id,1,M:1,Single,11,,0
+Orçamentos,rank_custo_unitario,,,1,M:1,Single,6,,0
+Orçamentos vencedores,,,,1,M:1,Single,5,,0
+checklist_concorrentes_estados,,EAP,subservico,1,M:1,Single,58,,0
+checklist_concorrentes_estados,,,,1,M:1,Single,7,,0
+EAP,subservico,,,1,1:1,Both,154,58.0,0
+checklist_vencedores_estados,,EAP,subservico,1,M:1,Single,46,,0
+EAP,subservico,,,1,1:1,Both,154,46.0,0
+checklist_vencedores_estados,,,,1,M:1,Single,6,,0
+AppEAP,subservico,EAP,subservico,1,1:1,Both,150,154.0,0

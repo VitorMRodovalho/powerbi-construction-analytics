@@ -1,0 +1,763 @@
+TableName,ColumnName,PandasDataType
+0-DVQ,Anexos,string
+0-DVQ,LR,string
+0-DVQ,LE,string
+0-DVQ,PONTA,string
+0-DVQ,Empresa,Int64
+0-DVQ,Desc. Empresa,string
+0-DVQ,Obra,string
+0-DVQ,Desc. Obra,string
+0-DVQ,Processo,Int64
+0-DVQ,Parcela,Int64
+0-DVQ,Valor processo,decimal.Decimal
+0-DVQ,Confirmado,string
+0-DVQ,Fornecedor,string
+0-DVQ,Observação,string
+0-DVQ,Dt. Prorrogação,datetime64[ns]
+0-DVQ,Dt. Vencimento,datetime64[ns]
+0-DVQ,Tipo documento,Int64
+0-DVQ,Status,Int64
+1-Emissão Pgto,Anexos,string
+1-Emissão Pgto,LR,string
+1-Emissão Pgto,LE,string
+1-Emissão Pgto,PONTA,string
+1-Emissão Pgto,Empresa,Int64
+1-Emissão Pgto,Desc. Empresa,string
+1-Emissão Pgto,Obra,string
+1-Emissão Pgto,Desc. Obra,string
+1-Emissão Pgto,Processo,Int64
+1-Emissão Pgto,Parcela,Int64
+1-Emissão Pgto,Valor processo,decimal.Decimal
+1-Emissão Pgto,Fornecedor,string
+1-Emissão Pgto,Data Prorrogação,datetime64[ns]
+1-Emissão Pgto,Tipo documento,string
+2-Medição Contrato,Anexos,string
+2-Medição Contrato,LR,string
+2-Medição Contrato,LE,string
+2-Medição Contrato,PONTA,string
+2-Medição Contrato,Empresa,Int64
+2-Medição Contrato,Desc. Empresa,string
+2-Medição Contrato,Obra,string
+2-Medição Contrato,Desc. Obra,string
+2-Medição Contrato,Medição,Int64
+2-Medição Contrato,Contrato,Int64
+2-Medição Contrato,Subtotal,Float64
+2-Medição Contrato,Acréscimos,Int64
+2-Medição Contrato,Descontos,Float64
+2-Medição Contrato,Adiantamentos,Float64
+2-Medição Contrato,Total,decimal.Decimal
+2-Medição Contrato,Contratado,string
+2-Medição Contrato,Observação,string
+2-Medição Contrato,Dt. geração,datetime64[ns]
+3-Simulação de Cotação,Anexos,string
+3-Simulação de Cotação,LR,string
+3-Simulação de Cotação,LE,string
+3-Simulação de Cotação,PONTA,string
+3-Simulação de Cotação,Empresa,Int64
+3-Simulação de Cotação,Desc. Empresa,string
+3-Simulação de Cotação,Cotação,Int64
+3-Simulação de Cotação,Simulação,Int64
+3-Simulação de Cotação,Valor,Float64
+3-Simulação de Cotação,Desconto,Int64
+3-Simulação de Cotação,Total,decimal.Decimal
+3-Simulação de Cotação,Valor Transporte,Int64
+3-Simulação de Cotação,Usuário,string
+3-Simulação de Cotação,Data,datetime64[ns]
+3-Simulação de Cotação,Simulação Geral,Int64
+3-Simulação de Cotação,Cotação Geral,Int64
+3-Simulação de Cotação,Origem,string
+3-Simulação de Cotação,Desc. Cotação,string
+3-Simulação de Cotação,Tipo,string
+3-Simulação de Cotação,Subtotal,decimal.Decimal
+3-Simulação de Cotação,Preço meta,Float64
+3-Simulação de Cotação,ICMS,Int64
+3-Simulação de Cotação,Vencimento,datetime64[ns]
+4-Confirmação Cotação,Anexos,string
+4-Confirmação Cotação,LR,string
+4-Confirmação Cotação,LE,string
+4-Confirmação Cotação,PONTA,string
+4-Confirmação Cotação,Empresa,Int64
+4-Confirmação Cotação,Desc. Empresa,string
+4-Confirmação Cotação,Obra,string
+4-Confirmação Cotação,Desc. Obra,string
+4-Confirmação Cotação,Cotação,Int64
+4-Confirmação Cotação,Simulação,Int64
+4-Confirmação Cotação,Contrato,string
+4-Confirmação Cotação,Subtotal,Float64
+4-Confirmação Cotação,Desconto,Int64
+4-Confirmação Cotação,Frete,Int64
+4-Confirmação Cotação,Total,Int64
+4-Confirmação Cotação,Dif. aliq. ICMS,Int64
+4-Confirmação Cotação,Total Dif. Aliq. ICMS,Float64
+4-Confirmação Cotação,Dt. Vencimento,datetime64[ns]
+4-Confirmação Cotação,Usuário,string
+4-Confirmação Cotação,Quando,datetime64[ns]
+4-Confirmação Cotação,Tipo Cotação,string
+5-Contratos de Mat e Serv,Anexos,string
+5-Contratos de Mat e Serv,LR,string
+5-Contratos de Mat e Serv,LE,string
+5-Contratos de Mat e Serv,PONTA,string
+5-Contratos de Mat e Serv,Empresa,Int64
+5-Contratos de Mat e Serv,Desc. Empresa,string
+5-Contratos de Mat e Serv,Obra,string
+5-Contratos de Mat e Serv,Desc. Obra,string
+5-Contratos de Mat e Serv,Contrato,Int64
+5-Contratos de Mat e Serv,Valor total,decimal.Decimal
+5-Contratos de Mat e Serv,Valor medido,decimal.Decimal
+5-Contratos de Mat e Serv,Objeto,string
+5-Contratos de Mat e Serv,Cód. fornecedor,Int64
+5-Contratos de Mat e Serv,Fornecedor,string
+5-Contratos de Mat e Serv,Observação,string
+5-Contratos de Mat e Serv,Início,datetime64[ns]
+5-Contratos de Mat e Serv,Fim,datetime64[ns]
+6-Aprovação Pedido,Anexos,string
+6-Aprovação Pedido,LR,string
+6-Aprovação Pedido,LE,string
+6-Aprovação Pedido,PONTA,string
+6-Aprovação Pedido,Empresa,Int64
+6-Aprovação Pedido,Obra,string
+6-Aprovação Pedido,Pedido,Int64
+6-Aprovação Pedido,Tipo do pedido,string
+6-Aprovação Pedido,Item,string
+6-Aprovação Pedido,Descrição,string
+6-Aprovação Pedido,Unidade,string
+6-Aprovação Pedido,Quantidade,Int64
+6-Aprovação Pedido,Preço orçado,Float64
+6-Aprovação Pedido,Valor total,decimal.Decimal
+6-Aprovação Pedido,Data de entrega,string
+7-Extra-Planejado,Anexos,Int64
+7-Extra-Planejado,LR,string
+7-Extra-Planejado,LE,string
+7-Extra-Planejado,PONTA,string
+7-Extra-Planejado,Empresa,Int64
+7-Extra-Planejado,Desc. Empresa,string
+7-Extra-Planejado,Obra,string
+7-Extra-Planejado,Desc. Obra,string
+7-Extra-Planejado,Solicitação,Int64
+7-Extra-Planejado,Origem,Int64
+7-Extra-Planejado,Usuário,string
+7-Extra-Planejado,Data,datetime64[ns]
+7-Extra-Planejado,Valor solicitado,decimal.Decimal
+7-Extra-Planejado,Descrição,string
+7-Extra-Planejado,Justificativa,string
+Acomp Entrega,Anexos,string
+Acomp Entrega,LR,string
+Acomp Entrega,LE,string
+Acomp Entrega,PONTA,string
+Acomp Entrega,Empresa,Int64
+Acomp Entrega,Obra,string
+Acomp Entrega,Cotação,Int64
+Acomp Entrega,O. C.,Int64
+Acomp Entrega,Processo,Int64
+Acomp Entrega,Código,Int64
+Acomp Entrega,Descrição Fornecedor,string
+Acomp Entrega,Subtotal,Float64
+Acomp Entrega,Desconto,Float64
+Acomp Entrega,Total,decimal.Decimal
+Acomp Entrega,Compra,datetime64[ns]
+Acomp Entrega,Tipo,string
+Acomp Entrega,Contrato,Int64
+Acomp Entrega,Acordo,string
+Acomp Entrega,Nº Acordo,string
+Acomp Entrega,Usuário,string
+Acomp Entrega,Quando,datetime64[ns]
+Acomp Entrega,Data Prevista,datetime64[ns]
+Acomp Entrega,Antecipado,string
+Consulta1,Empresa_proc,Int64
+Consulta1,Obra_Proc,string
+Consulta1,Num_Proc,Int64
+Consulta1,NumParc_Proc,Int64
+Consulta1,DtVencParc_Proc,datetime64[ns]
+Consulta1,DtPagParc_Proc,datetime64[ns]
+Consulta1,ValorParc_Proc,Float64
+Consulta1,ProvParc_Proc,Int64
+Consulta1,VlDocFisc_Proc,Float64
+Consulta1,StatusParc_proc,Int64
+Consulta1,banContParc_proc,Int64
+Consulta1,Conta_Proc,string
+Consulta1,tipopagParc_proc,string
+Consulta1,PrioParc_Proc,Int64
+Consulta1,UsrConfDt_Proc,string
+Consulta1,UsrConfVl_Proc,string
+Consulta1,UsrConfQdade_Proc,string
+Consulta1,UsrConfEmiss_Proc,string
+Consulta1,Conf_Proc,string
+Consulta1,ConfEmissao_Proc,Int64
+Consulta1,TipoChq_Proc,string
+Consulta1,ChqNome_Proc,string
+Consulta1,AcrescParc_Proc,Float64
+Consulta1,descParc_Proc,Float64
+Consulta1,DocEntreg_Proc,Int64
+Consulta1,DataConfDt_Proc,datetime64[ns]
+Consulta1,DataConfVl_Proc,datetime64[ns]
+Consulta1,DataConfQdade_Proc,datetime64[ns]
+Consulta1,CodigoBarra_Proc,string
+Consulta1,StatusBoleto_Proc,Int64
+Consulta1,Grupo_Proc,string
+Consulta1,DocFiscal_Proc,string
+Consulta1,ObsPag_Proc,string
+Consulta1,ObsEntreg_Proc,string
+Consulta1,DtDocFisc_Proc,datetime64[ns]
+Consulta1,DtEnvio_Proc,datetime64[ns]
+Consulta1,AgCedente_Proc,string
+Consulta1,CodigoCedente_Proc,string
+Consulta1,NossoNumero_Proc,string
+Consulta1,ObraFisc_Proc,string
+Consulta1,EndEntr_Proc,string
+Consulta1,EndPag_Proc,string
+Consulta1,NumReg_Proc,Int64
+Consulta1,HistLanc_Proc,string
+Consulta1,CategMovFin_Proc,string
+Consulta1,HistLancPago_Proc,string
+Consulta1,ConvenioConta_Proc,string
+Consulta1,DataAprovEmissao_proc,datetime64[ns]
+Consulta1,UsrAprovEmissao_proc,string
+Consulta1,DataInicioCorrecao_Proc,datetime64[ns]
+Consulta1,IndiceReajuste_proc,string
+Consulta1,EnviadoComoRiscoSacado_proc,bool
+Consulta1,CodPesNovoBeneficiario_proc,Int64
+Consulta1,Dados_Proc.Empresa_Proc,Int64
+Consulta1,Dados_Proc.Num_Proc,Int64
+Consulta1,Dados_Proc.Obra_Proc,string
+Consulta1,Dados_Proc.IntExt_Proc,string
+Consulta1,User_Proc,string
+Consulta1,CodForn_Proc,Int64
+Consulta1,Data_Proc,datetime64[ns]
+Consulta1,PorcJuro_ProcPar,Float64
+Consulta1,PorcMulta_ProcPar,Float64
+Consulta1,TipoJuro_ProcPar,Int64
+Consulta1,CodImposto_Cimp,string
+Consulta1,NumCot_Proc,Int64
+Consulta1,TipoDoc_Proc,Int64
+Consulta1,Contato_Proc,string
+Consulta1,CodMed_Proc,Int64
+Consulta1,EmpPaga_Proc,Int64
+Consulta1,EmpFatura_Proc,Int64
+Consulta1,Contrato_Proc,Int64
+Consulta1,OrdemCompra_Proc,Int64
+Consulta1,CategProc_proc,string
+Consulta1,Anexos_proc,Int64
+Consulta1,NumEnt_Proc,Int64
+Consulta1,IntExt_Proc,string
+Consulta1,VendaTransFinac,Int64
+Consulta1,Codigo_cger,string
+Consulta1,Desc_cger,string
+Consulta1,ValPagar_proc,Float64
+Consulta1,NomeBanco,string
+Consulta1,DescriCCorrente,string
+Consulta1,NomeFornecedor,string
+Consulta1,CnpjCpf,string
+Consulta1,NomeFantFornecedor,string
+Consulta1,NomeEmp_Paga,string
+Consulta1,NomeEmp_Fatura,string
+Consulta1,Desc_cmf,string
+Consulta1,descr_obr,string
+Consulta1,Desc_emp,string
+Consulta1,Protocolo_ProcPar,Int64
+Consulta1,ReterImposto_ProcPar,bool
+Consulta1,NumCsf_ProcPar,Int64
+Consulta1,Descr_csf,string
+Consulta1,CodigoCsrf_csf,string
+Consulta1,TipoImposto_ProcPar,Int64
+Consulta1,Aliquota_ProcPar,Float64
+Consulta1,ChaveTributo_proc,string
+Consulta1,CodDepartamento_ProcPar,string
+Consulta1,Descr_Cad,string
+Consulta1,Obra_RelAdmObr,string
+Consulta1,Desc_Obra_RelAdmObr,string
+Consulta1,Num_RelAdmObr,Int64
+Consulta1,Descricao_RelAdmObr,string
+Consulta1,Num_nfe,Int64
+Consulta1,Banco_pcb,Int64
+Consulta1,Nome_banco,string
+Consulta1,Adiantamento_ProcPar,bool
+Consulta1,Status_nfe,Int64
+Consulta1,QtdeParcelas_ProcPar,Int64
+Consulta1,NumSeqParcela_pps,Int64
+Consulta1,ValPagar,Float64
+Consulta1,ChaveNFe_ProcPar,string
+Consulta1,StatusNFe_ProcPar,Int64
+Consulta1,ObservacaoErro_ProcPar,string
+Consulta1,EmpresaProcPaiReemb_ProcPar,Int64
+Consulta1,NomeBeneficiario,string
+Consulta1,Id_crs,Int64
+Consulta1,Descricao_crs,string
+Contas Recebidas,EmpObr,string
+Contas Recebidas,GRUPO,string
+Contas Recebidas,Tipo,string
+Contas Recebidas,Cliente,Int64
+Contas Recebidas,Nome,string
+Contas Recebidas,Venda,Int64
+Contas Recebidas,TipoParc,string
+Contas Recebidas,Num Parc,Int64
+Contas Recebidas,Valor Dep,Float64
+Contas Recebidas,Data Deposito,datetime64[ns]
+Contas Recebidas,InsumoPL_des,Int64
+Contas Recebidas,Categoria_Pr,string
+Contas Recebidas,empresa_rec,Int64
+Contas Recebidas,obra_rec,string
+Contas Recebidas,cap_rec,string
+Contas Recebidas,bancodep_rpg,Int64
+Contas Recebidas,contadep_rpg,string
+Contas Recebidas,categmovfin_dep,string
+Contas a Pagar,IDPagar,string
+Contas a Pagar,EmpObr,string
+Contas a Pagar,Empresa,Int64
+Contas a Pagar,Nome Empresa,string
+Contas a Pagar,Obra,string
+Contas a Pagar,Nome Obra,string
+Contas a Pagar,Processo,Int64
+Contas a Pagar,Parcela,Int64
+Contas a Pagar,Vencimento,datetime64[ns]
+Contas a Pagar,Prorrogação,datetime64[ns]
+Contas a Pagar,Nominal,string
+Contas a Pagar,ValPagar,Float64
+Contas a Pagar,Número Doc,string
+Contas a Pagar,Valor Doc,Float64
+Contas a Pagar,CodForn_Proc,Int64
+Contas a Pagar,CategMovFin_Proc,string
+Contas a Pagar,CodInsProc_Item,string
+Contas a Pagar,TipoDoc_Proc,Int64
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Ano,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,MonthNo,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Mês,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,QuarterNo,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Trimestre,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Dia,object
+Emprendimentos Responsáveis UAU,Nome do Empreendimento,string
+Emprendimentos Responsáveis UAU,Estado,string
+Emprendimentos Responsáveis UAU,Cliente Empreendedor,string
+Emprendimentos Responsáveis UAU,Cidade,string
+Emprendimentos Responsáveis UAU,Status,string
+Emprendimentos Responsáveis UAU,Líder de R.E,string
+Emprendimentos Responsáveis UAU,Líder Especialista,string
+Emprendimentos Responsáveis UAU,Ponta,string
+Emprendimentos Responsáveis UAU,Tipologia,string
+Emprendimentos Responsáveis UAU,ERP,string
+Emprendimentos Responsáveis UAU,VGV do Projeto,decimal.Decimal
+Emprendimentos Responsáveis UAU,OBRAS UAU,Int64
+Emprendimentos Responsáveis UAU,Código RealEstateCo,string
+Emprendimentos Responsáveis UAU,Fundo 2,string
+Emprendimentos Responsáveis UAU,Holding Nível 1,string
+Emprendimentos Responsáveis UAU,Holding Nível 2,string
+Emprendimentos Responsáveis UAU,SPE's,string
+Emprendimentos Responsáveis UAU,Holding Nível 3,string
+Empresas,Codigo_emp,Float64
+Empresas,Desc_Emp,string
+Empresas,CodGrupo_emp,string
+Empresas,TipoEmpresa,string
+Empresas,GrupoEconomico,string
+Fora do Prazo,Empresa_pag,Int64
+Fora do Prazo,Contador,Int64
+Fora do Prazo,Data do Processo + 15 dias,datetime64[ns]
+Fora do Prazo,Data do Processo,datetime64[ns]
+Fora do Prazo,User_Pag,string
+Fora do Prazo,DataEmissao_Pag,datetime64[ns]
+Fora do Prazo,Desc_emp,string
+Fora do Prazo,descr_obr,string
+Fora do Prazo,NumProc_Pag,Int64
+Fora do Prazo,ObraProc_Pag,string
+Fora do Prazo,Cap_Pag,string
+Fora do Prazo,Descrição CAP Pago,string
+Fora do Prazo,Fornecedor,string
+Fora do Prazo,EmpObr,string
+Fracao Ideal,Empresa_unid,Int64
+Fracao Ideal,Obra_unid,string
+Fracao Ideal,Codigo_Unid,string
+Fracao Ideal,PorcentPr_Unid,Float64
+Fracao Ideal,Identificador_unid,string
+Fracao Ideal,UsrCad_unid,string
+Fracao Ideal,DataCad_unid,datetime64[ns]
+Fracao Ideal,FracaoIdeal_unid,Float64
+Fracao Ideal,FracaoIdealDecimal_unid,Float64
+Fracao Ideal,DataEntregaChaves_unid,datetime64[ns]
+Fracao Ideal,EmpObr,string
+Fracao Ideal,descr_obr,string
+Hieraquia,Líder de R.E,string
+Hieraquia,Líder Especialista,string
+Hieraquia,Ponta,string
+Juros e Multas,descr_plt,string
+Juros e Multas,hierarquia,string
+Juros e Multas,Valor_acd,Float64
+Juros e Multas,Descrição Acrescimo,string
+Juros e Multas,Cap Acrescimo,string
+Juros e Multas,Desc_emp,string
+Juros e Multas,descr_obr,string
+Juros e Multas,numparc_pag,Int64
+Juros e Multas,numproc_pag,Int64
+Juros e Multas,empresa_pag,Int64
+Juros e Multas,obraproc_pag,string
+Juros e Multas,dataemissao_pag,datetime64[ns]
+Juros e Multas,DataVencParc_Pag,datetime64[ns]
+Juros e Multas,identificador_de_atrasados,Int64
+Juros e Multas,Fornecedor,string
+Juros e Multas,EmpObr,string
+LocalDateTable_05176658-e9b6-48e0-8043-cd3fe991fd4f,Ano,object
+LocalDateTable_05176658-e9b6-48e0-8043-cd3fe991fd4f,MonthNo,object
+LocalDateTable_05176658-e9b6-48e0-8043-cd3fe991fd4f,Mês,object
+LocalDateTable_05176658-e9b6-48e0-8043-cd3fe991fd4f,QuarterNo,object
+LocalDateTable_05176658-e9b6-48e0-8043-cd3fe991fd4f,Trimestre,object
+LocalDateTable_05176658-e9b6-48e0-8043-cd3fe991fd4f,Dia,object
+LocalDateTable_0f9cfd4b-cdfd-43a8-bb70-c8cd8b67f49d,Ano,object
+LocalDateTable_0f9cfd4b-cdfd-43a8-bb70-c8cd8b67f49d,MonthNo,object
+LocalDateTable_0f9cfd4b-cdfd-43a8-bb70-c8cd8b67f49d,Mês,object
+LocalDateTable_0f9cfd4b-cdfd-43a8-bb70-c8cd8b67f49d,QuarterNo,object
+LocalDateTable_0f9cfd4b-cdfd-43a8-bb70-c8cd8b67f49d,Trimestre,object
+LocalDateTable_0f9cfd4b-cdfd-43a8-bb70-c8cd8b67f49d,Dia,object
+LocalDateTable_1070f2aa-5dfe-41cc-b789-3228fb753302,Ano,object
+LocalDateTable_1070f2aa-5dfe-41cc-b789-3228fb753302,MonthNo,object
+LocalDateTable_1070f2aa-5dfe-41cc-b789-3228fb753302,Mês,object
+LocalDateTable_1070f2aa-5dfe-41cc-b789-3228fb753302,QuarterNo,object
+LocalDateTable_1070f2aa-5dfe-41cc-b789-3228fb753302,Trimestre,object
+LocalDateTable_1070f2aa-5dfe-41cc-b789-3228fb753302,Dia,object
+LocalDateTable_182559af-55a2-4ea2-a7b6-71effc207f82,Ano,object
+LocalDateTable_182559af-55a2-4ea2-a7b6-71effc207f82,MonthNo,object
+LocalDateTable_182559af-55a2-4ea2-a7b6-71effc207f82,Mês,object
+LocalDateTable_182559af-55a2-4ea2-a7b6-71effc207f82,QuarterNo,object
+LocalDateTable_182559af-55a2-4ea2-a7b6-71effc207f82,Trimestre,object
+LocalDateTable_182559af-55a2-4ea2-a7b6-71effc207f82,Dia,object
+LocalDateTable_1fa44de2-0cef-4aef-a2a5-4ab2a9558b4d,Ano,object
+LocalDateTable_1fa44de2-0cef-4aef-a2a5-4ab2a9558b4d,MonthNo,object
+LocalDateTable_1fa44de2-0cef-4aef-a2a5-4ab2a9558b4d,Mês,object
+LocalDateTable_1fa44de2-0cef-4aef-a2a5-4ab2a9558b4d,QuarterNo,object
+LocalDateTable_1fa44de2-0cef-4aef-a2a5-4ab2a9558b4d,Trimestre,object
+LocalDateTable_1fa44de2-0cef-4aef-a2a5-4ab2a9558b4d,Dia,object
+LocalDateTable_27cf94a4-38d2-4032-a28f-ae67ac5dc037,Ano,object
+LocalDateTable_27cf94a4-38d2-4032-a28f-ae67ac5dc037,MonthNo,object
+LocalDateTable_27cf94a4-38d2-4032-a28f-ae67ac5dc037,Mês,object
+LocalDateTable_27cf94a4-38d2-4032-a28f-ae67ac5dc037,QuarterNo,object
+LocalDateTable_27cf94a4-38d2-4032-a28f-ae67ac5dc037,Trimestre,object
+LocalDateTable_27cf94a4-38d2-4032-a28f-ae67ac5dc037,Dia,object
+LocalDateTable_2cd2d8f5-91e2-4655-84e2-2f782365282f,Ano,object
+LocalDateTable_2cd2d8f5-91e2-4655-84e2-2f782365282f,MonthNo,object
+LocalDateTable_2cd2d8f5-91e2-4655-84e2-2f782365282f,Mês,object
+LocalDateTable_2cd2d8f5-91e2-4655-84e2-2f782365282f,QuarterNo,object
+LocalDateTable_2cd2d8f5-91e2-4655-84e2-2f782365282f,Trimestre,object
+LocalDateTable_2cd2d8f5-91e2-4655-84e2-2f782365282f,Dia,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Ano,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,MonthNo,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Mês,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,QuarterNo,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Trimestre,object
+LocalDateTable_2e526964-956a-400a-837a-0f7211a9234a,Dia,object
+LocalDateTable_3733a0dd-9626-4101-9e16-f94f4d74f372,Ano,object
+LocalDateTable_3733a0dd-9626-4101-9e16-f94f4d74f372,MonthNo,object
+LocalDateTable_3733a0dd-9626-4101-9e16-f94f4d74f372,Mês,object
+LocalDateTable_3733a0dd-9626-4101-9e16-f94f4d74f372,QuarterNo,object
+LocalDateTable_3733a0dd-9626-4101-9e16-f94f4d74f372,Trimestre,object
+LocalDateTable_3733a0dd-9626-4101-9e16-f94f4d74f372,Dia,object
+LocalDateTable_453c353e-97de-4cd3-b6f6-4178fa9d34a8,Ano,object
+LocalDateTable_453c353e-97de-4cd3-b6f6-4178fa9d34a8,MonthNo,object
+LocalDateTable_453c353e-97de-4cd3-b6f6-4178fa9d34a8,Mês,object
+LocalDateTable_453c353e-97de-4cd3-b6f6-4178fa9d34a8,QuarterNo,object
+LocalDateTable_453c353e-97de-4cd3-b6f6-4178fa9d34a8,Trimestre,object
+LocalDateTable_453c353e-97de-4cd3-b6f6-4178fa9d34a8,Dia,object
+LocalDateTable_4b8492c9-d6b9-4644-a47f-93428e8f4733,Ano,object
+LocalDateTable_4b8492c9-d6b9-4644-a47f-93428e8f4733,MonthNo,object
+LocalDateTable_4b8492c9-d6b9-4644-a47f-93428e8f4733,Mês,object
+LocalDateTable_4b8492c9-d6b9-4644-a47f-93428e8f4733,QuarterNo,object
+LocalDateTable_4b8492c9-d6b9-4644-a47f-93428e8f4733,Trimestre,object
+LocalDateTable_4b8492c9-d6b9-4644-a47f-93428e8f4733,Dia,object
+LocalDateTable_5158f55a-94f0-4a03-b315-03c46ae344b3,Ano,object
+LocalDateTable_5158f55a-94f0-4a03-b315-03c46ae344b3,MonthNo,object
+LocalDateTable_5158f55a-94f0-4a03-b315-03c46ae344b3,Mês,object
+LocalDateTable_5158f55a-94f0-4a03-b315-03c46ae344b3,QuarterNo,object
+LocalDateTable_5158f55a-94f0-4a03-b315-03c46ae344b3,Trimestre,object
+LocalDateTable_5158f55a-94f0-4a03-b315-03c46ae344b3,Dia,object
+LocalDateTable_552a0688-8aae-42b9-9212-c064f27f3f3d,Ano,object
+LocalDateTable_552a0688-8aae-42b9-9212-c064f27f3f3d,MonthNo,object
+LocalDateTable_552a0688-8aae-42b9-9212-c064f27f3f3d,Mês,object
+LocalDateTable_552a0688-8aae-42b9-9212-c064f27f3f3d,QuarterNo,object
+LocalDateTable_552a0688-8aae-42b9-9212-c064f27f3f3d,Trimestre,object
+LocalDateTable_552a0688-8aae-42b9-9212-c064f27f3f3d,Dia,object
+LocalDateTable_591f8064-394e-4b2b-981d-3e69a7bf8dc4,Ano,object
+LocalDateTable_591f8064-394e-4b2b-981d-3e69a7bf8dc4,MonthNo,object
+LocalDateTable_591f8064-394e-4b2b-981d-3e69a7bf8dc4,Mês,object
+LocalDateTable_591f8064-394e-4b2b-981d-3e69a7bf8dc4,QuarterNo,object
+LocalDateTable_591f8064-394e-4b2b-981d-3e69a7bf8dc4,Trimestre,object
+LocalDateTable_591f8064-394e-4b2b-981d-3e69a7bf8dc4,Dia,object
+LocalDateTable_6220584f-0eda-4f0b-a1c0-3a8604ae33bb,Ano,object
+LocalDateTable_6220584f-0eda-4f0b-a1c0-3a8604ae33bb,MonthNo,object
+LocalDateTable_6220584f-0eda-4f0b-a1c0-3a8604ae33bb,Mês,object
+LocalDateTable_6220584f-0eda-4f0b-a1c0-3a8604ae33bb,QuarterNo,object
+LocalDateTable_6220584f-0eda-4f0b-a1c0-3a8604ae33bb,Trimestre,object
+LocalDateTable_6220584f-0eda-4f0b-a1c0-3a8604ae33bb,Dia,object
+LocalDateTable_76b67b4f-4834-4795-9ae8-0d768b2e39c3,Ano,object
+LocalDateTable_76b67b4f-4834-4795-9ae8-0d768b2e39c3,MonthNo,object
+LocalDateTable_76b67b4f-4834-4795-9ae8-0d768b2e39c3,Mês,object
+LocalDateTable_76b67b4f-4834-4795-9ae8-0d768b2e39c3,QuarterNo,object
+LocalDateTable_76b67b4f-4834-4795-9ae8-0d768b2e39c3,Trimestre,object
+LocalDateTable_76b67b4f-4834-4795-9ae8-0d768b2e39c3,Dia,object
+LocalDateTable_7a9e799e-1e5b-47f4-97db-03324e6a8608,Ano,object
+LocalDateTable_7a9e799e-1e5b-47f4-97db-03324e6a8608,MonthNo,object
+LocalDateTable_7a9e799e-1e5b-47f4-97db-03324e6a8608,Mês,object
+LocalDateTable_7a9e799e-1e5b-47f4-97db-03324e6a8608,QuarterNo,object
+LocalDateTable_7a9e799e-1e5b-47f4-97db-03324e6a8608,Trimestre,object
+LocalDateTable_7a9e799e-1e5b-47f4-97db-03324e6a8608,Dia,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Ano,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,MonthNo,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Mês,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,QuarterNo,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Trimestre,object
+LocalDateTable_7b3769d0-cd22-4316-b163-3a821ad8acff,Dia,object
+LocalDateTable_8305f3f4-9ab1-4278-a72e-25b5c45eaf3d,Ano,object
+LocalDateTable_8305f3f4-9ab1-4278-a72e-25b5c45eaf3d,MonthNo,object
+LocalDateTable_8305f3f4-9ab1-4278-a72e-25b5c45eaf3d,Mês,object
+LocalDateTable_8305f3f4-9ab1-4278-a72e-25b5c45eaf3d,QuarterNo,object
+LocalDateTable_8305f3f4-9ab1-4278-a72e-25b5c45eaf3d,Trimestre,object
+LocalDateTable_8305f3f4-9ab1-4278-a72e-25b5c45eaf3d,Dia,object
+LocalDateTable_8b299b34-a049-43c2-b0b3-c4d0cedc83ce,Ano,object
+LocalDateTable_8b299b34-a049-43c2-b0b3-c4d0cedc83ce,MonthNo,object
+LocalDateTable_8b299b34-a049-43c2-b0b3-c4d0cedc83ce,Mês,object
+LocalDateTable_8b299b34-a049-43c2-b0b3-c4d0cedc83ce,QuarterNo,object
+LocalDateTable_8b299b34-a049-43c2-b0b3-c4d0cedc83ce,Trimestre,object
+LocalDateTable_8b299b34-a049-43c2-b0b3-c4d0cedc83ce,Dia,object
+LocalDateTable_8d2f1d0d-cc83-4ff7-985f-cc0c6171733b,Ano,object
+LocalDateTable_8d2f1d0d-cc83-4ff7-985f-cc0c6171733b,MonthNo,object
+LocalDateTable_8d2f1d0d-cc83-4ff7-985f-cc0c6171733b,Mês,object
+LocalDateTable_8d2f1d0d-cc83-4ff7-985f-cc0c6171733b,QuarterNo,object
+LocalDateTable_8d2f1d0d-cc83-4ff7-985f-cc0c6171733b,Trimestre,object
+LocalDateTable_8d2f1d0d-cc83-4ff7-985f-cc0c6171733b,Dia,object
+LocalDateTable_8ee7ff74-a4c3-4fd8-af61-eab231639013,Ano,object
+LocalDateTable_8ee7ff74-a4c3-4fd8-af61-eab231639013,MonthNo,object
+LocalDateTable_8ee7ff74-a4c3-4fd8-af61-eab231639013,Mês,object
+LocalDateTable_8ee7ff74-a4c3-4fd8-af61-eab231639013,QuarterNo,object
+LocalDateTable_8ee7ff74-a4c3-4fd8-af61-eab231639013,Trimestre,object
+LocalDateTable_8ee7ff74-a4c3-4fd8-af61-eab231639013,Dia,object
+LocalDateTable_98b9bd50-5795-44c9-a3e0-8e43c86585ca,Ano,object
+LocalDateTable_98b9bd50-5795-44c9-a3e0-8e43c86585ca,MonthNo,object
+LocalDateTable_98b9bd50-5795-44c9-a3e0-8e43c86585ca,Mês,object
+LocalDateTable_98b9bd50-5795-44c9-a3e0-8e43c86585ca,QuarterNo,object
+LocalDateTable_98b9bd50-5795-44c9-a3e0-8e43c86585ca,Trimestre,object
+LocalDateTable_98b9bd50-5795-44c9-a3e0-8e43c86585ca,Dia,object
+LocalDateTable_a198fd7a-fd3c-4e79-9fde-80ddd1a1c5d7,Ano,object
+LocalDateTable_a198fd7a-fd3c-4e79-9fde-80ddd1a1c5d7,MonthNo,object
+LocalDateTable_a198fd7a-fd3c-4e79-9fde-80ddd1a1c5d7,Mês,object
+LocalDateTable_a198fd7a-fd3c-4e79-9fde-80ddd1a1c5d7,QuarterNo,object
+LocalDateTable_a198fd7a-fd3c-4e79-9fde-80ddd1a1c5d7,Trimestre,object
+LocalDateTable_a198fd7a-fd3c-4e79-9fde-80ddd1a1c5d7,Dia,object
+LocalDateTable_a4b18f45-1f2b-4193-99e8-105975038278,Ano,object
+LocalDateTable_a4b18f45-1f2b-4193-99e8-105975038278,MonthNo,object
+LocalDateTable_a4b18f45-1f2b-4193-99e8-105975038278,Mês,object
+LocalDateTable_a4b18f45-1f2b-4193-99e8-105975038278,QuarterNo,object
+LocalDateTable_a4b18f45-1f2b-4193-99e8-105975038278,Trimestre,object
+LocalDateTable_a4b18f45-1f2b-4193-99e8-105975038278,Dia,object
+LocalDateTable_ab17001a-7462-44dd-aa41-06df7de6c320,Ano,object
+LocalDateTable_ab17001a-7462-44dd-aa41-06df7de6c320,MonthNo,object
+LocalDateTable_ab17001a-7462-44dd-aa41-06df7de6c320,Mês,object
+LocalDateTable_ab17001a-7462-44dd-aa41-06df7de6c320,QuarterNo,object
+LocalDateTable_ab17001a-7462-44dd-aa41-06df7de6c320,Trimestre,object
+LocalDateTable_ab17001a-7462-44dd-aa41-06df7de6c320,Dia,object
+LocalDateTable_ad78e02d-6c0a-4861-b381-a19c3ed30116,Ano,object
+LocalDateTable_ad78e02d-6c0a-4861-b381-a19c3ed30116,MonthNo,object
+LocalDateTable_ad78e02d-6c0a-4861-b381-a19c3ed30116,Mês,object
+LocalDateTable_ad78e02d-6c0a-4861-b381-a19c3ed30116,QuarterNo,object
+LocalDateTable_ad78e02d-6c0a-4861-b381-a19c3ed30116,Trimestre,object
+LocalDateTable_ad78e02d-6c0a-4861-b381-a19c3ed30116,Dia,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Ano,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,MonthNo,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Mês,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,QuarterNo,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Trimestre,object
+LocalDateTable_aeb8b2b7-3b0f-485d-9aef-72c14ebe2cee,Dia,object
+LocalDateTable_af255ae8-b71b-41b4-a77f-7ca013722335,Ano,object
+LocalDateTable_af255ae8-b71b-41b4-a77f-7ca013722335,MonthNo,object
+LocalDateTable_af255ae8-b71b-41b4-a77f-7ca013722335,Mês,object
+LocalDateTable_af255ae8-b71b-41b4-a77f-7ca013722335,QuarterNo,object
+LocalDateTable_af255ae8-b71b-41b4-a77f-7ca013722335,Trimestre,object
+LocalDateTable_af255ae8-b71b-41b4-a77f-7ca013722335,Dia,object
+LocalDateTable_b359954e-a3e8-4caa-8ecb-52217b7a1a63,Ano,object
+LocalDateTable_b359954e-a3e8-4caa-8ecb-52217b7a1a63,MonthNo,object
+LocalDateTable_b359954e-a3e8-4caa-8ecb-52217b7a1a63,Mês,object
+LocalDateTable_b359954e-a3e8-4caa-8ecb-52217b7a1a63,QuarterNo,object
+LocalDateTable_b359954e-a3e8-4caa-8ecb-52217b7a1a63,Trimestre,object
+LocalDateTable_b359954e-a3e8-4caa-8ecb-52217b7a1a63,Dia,object
+LocalDateTable_b48723fa-a6fb-4675-bef0-348278bf0eba,Ano,object
+LocalDateTable_b48723fa-a6fb-4675-bef0-348278bf0eba,MonthNo,object
+LocalDateTable_b48723fa-a6fb-4675-bef0-348278bf0eba,Mês,object
+LocalDateTable_b48723fa-a6fb-4675-bef0-348278bf0eba,QuarterNo,object
+LocalDateTable_b48723fa-a6fb-4675-bef0-348278bf0eba,Trimestre,object
+LocalDateTable_b48723fa-a6fb-4675-bef0-348278bf0eba,Dia,object
+LocalDateTable_b556b1f7-8bfa-45c8-8f2a-fae0036ae96a,Ano,object
+LocalDateTable_b556b1f7-8bfa-45c8-8f2a-fae0036ae96a,MonthNo,object
+LocalDateTable_b556b1f7-8bfa-45c8-8f2a-fae0036ae96a,Mês,object
+LocalDateTable_b556b1f7-8bfa-45c8-8f2a-fae0036ae96a,QuarterNo,object
+LocalDateTable_b556b1f7-8bfa-45c8-8f2a-fae0036ae96a,Trimestre,object
+LocalDateTable_b556b1f7-8bfa-45c8-8f2a-fae0036ae96a,Dia,object
+LocalDateTable_b854aeec-0539-4599-b4f4-92fbe89936ca,Ano,object
+LocalDateTable_b854aeec-0539-4599-b4f4-92fbe89936ca,MonthNo,object
+LocalDateTable_b854aeec-0539-4599-b4f4-92fbe89936ca,Mês,object
+LocalDateTable_b854aeec-0539-4599-b4f4-92fbe89936ca,QuarterNo,object
+LocalDateTable_b854aeec-0539-4599-b4f4-92fbe89936ca,Trimestre,object
+LocalDateTable_b854aeec-0539-4599-b4f4-92fbe89936ca,Dia,object
+LocalDateTable_c08c1cad-68f7-4e56-ba07-ab57f40d276d,Ano,object
+LocalDateTable_c08c1cad-68f7-4e56-ba07-ab57f40d276d,MonthNo,object
+LocalDateTable_c08c1cad-68f7-4e56-ba07-ab57f40d276d,Mês,object
+LocalDateTable_c08c1cad-68f7-4e56-ba07-ab57f40d276d,QuarterNo,object
+LocalDateTable_c08c1cad-68f7-4e56-ba07-ab57f40d276d,Trimestre,object
+LocalDateTable_c08c1cad-68f7-4e56-ba07-ab57f40d276d,Dia,object
+LocalDateTable_c20e0964-1333-4a06-ab20-141f6911807a,Ano,object
+LocalDateTable_c20e0964-1333-4a06-ab20-141f6911807a,MonthNo,object
+LocalDateTable_c20e0964-1333-4a06-ab20-141f6911807a,Mês,object
+LocalDateTable_c20e0964-1333-4a06-ab20-141f6911807a,QuarterNo,object
+LocalDateTable_c20e0964-1333-4a06-ab20-141f6911807a,Trimestre,object
+LocalDateTable_c20e0964-1333-4a06-ab20-141f6911807a,Dia,object
+LocalDateTable_c2dcb9bf-fa47-445d-880b-19bbb6a846d4,Ano,object
+LocalDateTable_c2dcb9bf-fa47-445d-880b-19bbb6a846d4,MonthNo,object
+LocalDateTable_c2dcb9bf-fa47-445d-880b-19bbb6a846d4,Mês,object
+LocalDateTable_c2dcb9bf-fa47-445d-880b-19bbb6a846d4,QuarterNo,object
+LocalDateTable_c2dcb9bf-fa47-445d-880b-19bbb6a846d4,Trimestre,object
+LocalDateTable_c2dcb9bf-fa47-445d-880b-19bbb6a846d4,Dia,object
+LocalDateTable_c38f5454-bf7c-4da7-921c-6f29d4153052,Ano,object
+LocalDateTable_c38f5454-bf7c-4da7-921c-6f29d4153052,MonthNo,object
+LocalDateTable_c38f5454-bf7c-4da7-921c-6f29d4153052,Mês,object
+LocalDateTable_c38f5454-bf7c-4da7-921c-6f29d4153052,QuarterNo,object
+LocalDateTable_c38f5454-bf7c-4da7-921c-6f29d4153052,Trimestre,object
+LocalDateTable_c38f5454-bf7c-4da7-921c-6f29d4153052,Dia,object
+LocalDateTable_d45d95f0-4563-42f1-8c03-aa8cb121d957,Ano,object
+LocalDateTable_d45d95f0-4563-42f1-8c03-aa8cb121d957,MonthNo,object
+LocalDateTable_d45d95f0-4563-42f1-8c03-aa8cb121d957,Mês,object
+LocalDateTable_d45d95f0-4563-42f1-8c03-aa8cb121d957,QuarterNo,object
+LocalDateTable_d45d95f0-4563-42f1-8c03-aa8cb121d957,Trimestre,object
+LocalDateTable_d45d95f0-4563-42f1-8c03-aa8cb121d957,Dia,object
+LocalDateTable_d6cd2c99-87ef-40ab-a17c-160a1b42e6d7,Ano,object
+LocalDateTable_d6cd2c99-87ef-40ab-a17c-160a1b42e6d7,MonthNo,object
+LocalDateTable_d6cd2c99-87ef-40ab-a17c-160a1b42e6d7,Mês,object
+LocalDateTable_d6cd2c99-87ef-40ab-a17c-160a1b42e6d7,QuarterNo,object
+LocalDateTable_d6cd2c99-87ef-40ab-a17c-160a1b42e6d7,Trimestre,object
+LocalDateTable_d6cd2c99-87ef-40ab-a17c-160a1b42e6d7,Dia,object
+LocalDateTable_d954ebb1-b5cd-4616-b063-aceae34da29b,Ano,object
+LocalDateTable_d954ebb1-b5cd-4616-b063-aceae34da29b,MonthNo,object
+LocalDateTable_d954ebb1-b5cd-4616-b063-aceae34da29b,Mês,object
+LocalDateTable_d954ebb1-b5cd-4616-b063-aceae34da29b,QuarterNo,object
+LocalDateTable_d954ebb1-b5cd-4616-b063-aceae34da29b,Trimestre,object
+LocalDateTable_d954ebb1-b5cd-4616-b063-aceae34da29b,Dia,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Ano,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,MonthNo,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Mês,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,QuarterNo,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Trimestre,object
+LocalDateTable_da2c0fe6-e6b7-4169-8b50-777b5f6730d2,Dia,object
+LocalDateTable_e7a9fab7-3cf9-4383-9252-f254660e4261,Ano,object
+LocalDateTable_e7a9fab7-3cf9-4383-9252-f254660e4261,MonthNo,object
+LocalDateTable_e7a9fab7-3cf9-4383-9252-f254660e4261,Mês,object
+LocalDateTable_e7a9fab7-3cf9-4383-9252-f254660e4261,QuarterNo,object
+LocalDateTable_e7a9fab7-3cf9-4383-9252-f254660e4261,Trimestre,object
+LocalDateTable_e7a9fab7-3cf9-4383-9252-f254660e4261,Dia,object
+LocalDateTable_e9e23495-15d4-4676-815f-3b6d64a3358a,Ano,object
+LocalDateTable_e9e23495-15d4-4676-815f-3b6d64a3358a,MonthNo,object
+LocalDateTable_e9e23495-15d4-4676-815f-3b6d64a3358a,Mês,object
+LocalDateTable_e9e23495-15d4-4676-815f-3b6d64a3358a,QuarterNo,object
+LocalDateTable_e9e23495-15d4-4676-815f-3b6d64a3358a,Trimestre,object
+LocalDateTable_e9e23495-15d4-4676-815f-3b6d64a3358a,Dia,object
+LocalDateTable_fa777cde-7d0c-4326-9b23-798681a3d533,Ano,object
+LocalDateTable_fa777cde-7d0c-4326-9b23-798681a3d533,MonthNo,object
+LocalDateTable_fa777cde-7d0c-4326-9b23-798681a3d533,Mês,object
+LocalDateTable_fa777cde-7d0c-4326-9b23-798681a3d533,QuarterNo,object
+LocalDateTable_fa777cde-7d0c-4326-9b23-798681a3d533,Trimestre,object
+LocalDateTable_fa777cde-7d0c-4326-9b23-798681a3d533,Dia,object
+Processos de Pagamento,Empresa_proc,Int64
+Processos de Pagamento,Obra_Proc,string
+Processos de Pagamento,Num_Proc,Int64
+Processos de Pagamento,NumParc_Proc,Int64
+Processos de Pagamento,ChqNome_Proc,string
+Processos de Pagamento,DocFiscal_Proc,string
+Processos de Pagamento,ValLiquidoParc,Float64
+Processos de Pagamento,AcrescParc_Proc,Float64
+Processos de Pagamento,descParc_Proc,Float64
+Processos de Pagamento,ValorParc_Proc,Float64
+Processos de Pagamento,DVQ,string
+Processos de Pagamento,StatusParc_proc,Int64
+Processos de Pagamento,Status,string
+Processos de Pagamento,TipoProcPag,Int64
+Processos de Pagamento,Empresa_apv,Int64
+Processos de Pagamento,NumProc_apv,Int64
+Processos de Pagamento,NumParc_apv,Int64
+Processos de Pagamento,Obra_apv,string
+Processos de Pagamento,TipoProcPagam,string
+Processos de Pagamento,Empresa,string
+Processos de Pagamento,Obra,string
+Processos de Pagamento,Chave,string
+Processos de Pagamento,DataCadastro,datetime64[ns]
+Processos de Pagamento,DataDocFiscal,datetime64[ns]
+Processos de Pagamento,DataAprovData,datetime64[ns]
+Processos de Pagamento,DataConfValor,datetime64[ns]
+Processos de Pagamento,DataConfQuantidade,datetime64[ns]
+Processos de Pagamento,DataConfirmacaoPgto,datetime64[ns]
+Processos de Pagamento,DataVencimento,datetime64[ns]
+Processos de Pagamento,DataPagamento,datetime64[ns]
+Processos de Pagamento,UsrConfVl_Proc,string
+Processos de Pagamento,UsrConfQdade_Proc,string
+Processos de Pagamento,QuemConferiuQtd,string
+Processos de Pagamento,Quem_apv,string
+Processos de Pagamento,NomeAprovou,string
+Processos de Pagamento,User_Proc,string
+Processos de Pagamento,UsrConfDt_Proc,string
+Processos de Pagamento,QuemConferiuData,string
+Processos de Pagamento,QuemConferiuVl,string
+Saldos Gerenciais,Empresa_sdcc,Int64
+Saldos Gerenciais,Nome_banco,string
+Saldos Gerenciais,Banco_sdcc,Int64
+Saldos Gerenciais,Conta_sdcc,string
+Saldos Gerenciais,Descri_banco,string
+Saldos Gerenciais,Tipo_banco,Int64
+Saldos Gerenciais,Data_sdcc,datetime64[ns]
+Saldos Gerenciais,Saldo_sdcc,Float64
+Saldos Gerenciais,Calculado_sdcc,Int64
+Sócios,Login_usr,string
+Sócios,Nome_usr,string
+Sócios,GRUPO,string
+Teste,Saldo,object
+Usuarios,Login,string
+Usuarios,Usuário,string
+Usuarios,Código Grupo,string
+Usuarios,Descrição Grupo,string
+Usuarios,e-mail,string
+Usuarios,DataCad_usr,datetime64[ns]
+Usuarios,DataAlt_usr,datetime64[ns]
+Usuarios,Cliente,string
+Usuarios Departamento,Login,string
+Usuarios Departamento,NomeUser,string
+Usuarios Departamento,Status,string
+Usuarios Departamento,Cod_cad,string
+Usuarios Departamento,DescrDep,string
+Usuarios Departamento,Grupo_usr,string
+Usuarios Departamento,DescrGrp,string
+Usuarios Departamento,Email,string
+Usuarios Departamento,DataCad_usr,datetime64[ns]
+Usuarios Departamento,UsrCad_usr,string
+Usuarios Departamento,Data,datetime64[ns]
+Usuarios Departamento,UsrAlt_usr,string
+dCalendário,DATA,datetime64[ns]
+dCalendário,ANO,Int64
+dCalendário,MES,Int64
+dCalendário,DT REFERENCIA,datetime64[ns]
+dCalendário,TRIMESTRE,Int64
+dCalendário,SEMANA DO ANO,Int64
+dCalendário,SEMANA DO MES,Int64
+dCalendário,DIA DO MES,Int64
+dCalendário,DIA DA SEMANA,Int64
+dCalendário,DIA DO ANO,Int64
+dCalendário,NOME DO DIA,string
+dCalendário,NOME MES,string
+dCalendário,WEEK OF YEAR,string
+dCalendário,NOME TRIMESTRE,string
+dCalendário,NOME MES ABREV,string
+dCalendário,NOME MES/ANO ABREV,string
+dCalendário,MES/ANO,string
+dCalendário,NOME DO DIA ABREV,string
+dCalendário,SEMESTRE,Float64
+dCalendário,DIA ÚTIL,Float64
+dCalendário,NOME SEMESTRE,string
+dCalendário,NAME QUARTER,string
+dCalendário,MONTH NAME,string
+dCalendário,MONTH NAME ABREV,string
+dCalendário,ANO (YY),string
+dCalendário,MONTH/YEAR,string
+dCalendário,HOJE,Int64
+dCalendário,MES ATUAL,Int64
+dCalendário,SEMANA ATUAL,Int64
+dCalendário,DIA D,Int64
+dCalendário,DIA D-1,Int64
+dCalendário,DT ATUALIZAÇÃO,datetime64[ns]
+dCalendário,TRIMESTRE / ANO,string

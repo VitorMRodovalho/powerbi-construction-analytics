@@ -1,0 +1,23 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+Planilha1 (2),Data Início,,,1,M:1,Single,17.0,,0
+Planilha1 (2),Data Termino B0,,,1,M:1,Single,17.0,,0
+Planilha1 (2),Data Tendência Termino,,,1,M:1,Single,16.0,,0
+Mapeamento de Riscos e Problema,Mês,,,1,M:1,Single,20.0,,0
+Mapeamento de Riscos e Problema,Dt Resolvida,,,1,M:1,Single,14.0,,0
+A V A,Empreendimento,Planilha1 (2),Empreendimento,1,M:M,Both,,,0
+Resumo Financeiro do Empreendim,Empreendimento,Planilha1 (2),Empreendimento,1,M:M,Both,,,0
+Mapeamento de Riscos e Problema,Empreendimento,Planilha1 (2),Empreendimento,1,M:M,Both,,,0
+Fisico,Empreendimento,Planilha1 (2),Empreendimento,1,M:M,Both,,,0
+Fisico,Atributo,,,1,M:1,Single,159.0,,0
+editais a abrir,Empreendimento,Planilha1 (2),Empreendimento,1,M:1,Both,14.0,,0
+editais a abrir,Previsão de Abertura do Edital,,,1,M:1,Single,13.0,,0
+Financeiro,Empreendimento,Planilha1 (2),Empreendimento,1,M:1,Both,16.0,,0
+CalendarioDAX,,,,1,M:1,Single,6213.0,,0
+Financeiro,Atributo,,,1,M:1,Single,159.0,,0
+RealEstateCo,Prazo Original,,,1,M:1,Single,23.0,,0
+RealEstateCo,Prazo Reprogramado ,,,1,M:1,Single,4.0,,0
+RealEstateCo,Data Status de Conclusão,,,1,M:1,Single,4.0,,0
+Empreendimento,Data da Abertura,,,1,M:1,Single,40.0,,0
+Empreendimento,Data de Integralização,,,1,M:1,Single,10.0,,0
+Empreendimento,DATA DE LANÇAMENTO,,,1,M:1,Single,18.0,,0
+Empreendimento,Empreendimento,RealEstateCo,Empreendimento,1,M:M,Both,,,0

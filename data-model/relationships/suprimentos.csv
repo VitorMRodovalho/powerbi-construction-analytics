@@ -1,0 +1,89 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+UAU Empresas,DataSimples_emp,,,1,M:1,Single,3,,0
+UAU Empresas,DataInicioValidadeReinf_efisc,,,1,M:1,Single,39,,0
+ShPoint Empreendimento,UAU.Emp.SPE's.,UAU Empresas,Codigo_emp,1,M:1,Both,79,,0
+UAU Ordem Compra,empresa_ocp,UAU Empresas,Codigo_emp,0,M:1,Single,86,,0
+UAU Controle Desembolso,empresa_cd,UAU Empresas,Codigo_emp,0,M:1,Single,219,,0
+UAU Ordem Compra Historico,EmprObr-OC,UAU Ordem Compra,EmprObr-OC,0,M:1,Single,173736,,0
+UAU Ordem Compra Historico,Empr,UAU Empresas,Codigo_emp,0,M:1,Single,200,,0
+UAU Contratos Medição,empresa_med,UAU Empresas,Codigo_emp,0,M:1,Single,182,,0
+UAU Resumo Orçamento,Empresa_pla,UAU Empresas,Codigo_emp,0,M:1,Single,202,,0
+UAU Empresas / Obra,Codigo_emp,UAU Empresas,Codigo_emp,1,M:1,Both,137,,0
+UAU Contratos,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,491,,0
+UAU Contratos Medição,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,651,,0
+UAU Ordem Compra Historico,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,1478,,0
+UAU Resumo Orçamento,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,1919,,0
+UAU Ordem Compra,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,360,,0
+DataInicial,DataInicial,,,1,M:1,Single,4,,0
+DataFinal,DataFinal,,,1,M:1,Single,4,,0
+dCalendário,DATA,,,1,M:1,Single,14977,,0
+dCalendário,DT REFERENCIA,,,1,M:1,Single,495,,0
+dCalendário,DT ATUALIZAÇÃO,,,1,M:1,Single,4,,0
+UAU Contratos Medição,dataaprov_med,dCalendário,DATA,1,M:1,Single,9351,,0
+UAU Contratos Medição,DataFim,dCalendário,DATA,0,M:1,Single,1618,,0
+UAU Contratos Medição,DataInicio,dCalendário,DATA,0,M:1,Single,1533,,0
+UAU Contratos Medição,datareajuste_med,dCalendário,DATA,0,M:1,Single,554,,0
+UAU Contratos Medição,dtcriacao_med,dCalendário,DATA,0,M:1,Single,1156,,0
+UAU Contratos,DtCriacao_cont,dCalendário,DATA,1,M:1,Single,440,,0
+UAU Contratos,DtFim_cont,dCalendário,DATA,0,M:1,Single,702,,0
+UAU Contratos,DtInicio_cont,dCalendário,DATA,0,M:1,Single,563,,0
+UAU Ordem Compra Historico,dtatividade_hpro,dCalendário,DATA,1,M:1,Single,1809,,0
+UAU Ordem Compra,datager_ocp,dCalendário,DATA,1,M:1,Single,988,,0
+UAU Controle Desembolso,mes_cd,dCalendário,DATA,1,M:1,Single,745,,0
+UAU Resumo Orçamento,Dfim_pla,dCalendário,DATA,1,M:1,Single,39,,0
+UAU Resumo Orçamento,Dini_pla,dCalendário,DATA,0,M:1,Single,81,,0
+UAU Performace Suprimentos (macro),DataCotacao,dCalendário,DATA,1,M:1,Single,666,,0
+UAU Performace Suprimentos,DataCotacao,dCalendário,DATA,1,M:1,Single,666,,0
+UAU Pedido de Compra,Data_temp,dCalendário,DATA,1,M:1,Single,3,,0
+UAU Pedido de Compra,DataAlt,dCalendário,DATA,0,M:1,Single,757,,0
+UAU Pedido de Compra,DataAlt_temp,dCalendário,DATA,0,M:1,Single,7774,,0
+UAU Pedido de Compra,DataConf_temp,dCalendário,DATA,0,M:1,Single,3,,0
+UAU Pedido de Compra,DataDel_temp,dCalendário,DATA,0,M:1,Single,78,,0
+UAU OrcamentoAprov,DataCad_OrcAp,dCalendário,DATA,1,M:1,Single,26,,0
+UAU OrcamentoAprov,DataDel_OrcAp,dCalendário,DATA,0,M:1,Single,3,,0
+UAU Pedido de Compra,DtEntrega_temp,dCalendário,DATA,0,M:1,Single,1248,,0
+UAU Pedido de Compra,DtEntregaOrig_temp,dCalendário,DATA,0,M:1,Single,1249,,0
+UAU Pedido de Compra,DtPedido,dCalendário,DATA,0,M:1,Single,1039,,0
+UAU Pedido de Compra,dtpedido_ped,dCalendário,DATA,0,M:1,Single,30361,,0
+UAU Performace Suprimentos,Empresa,UAU Empresas,Codigo_emp,1,M:1,Single,64,,0
+UAU Pedido de Compra,Empresa_temp,UAU Empresas,Codigo_emp,0,M:1,Single,145,,0
+UAU OrcamentoAprov,Empresa_OrcAp,UAU Empresas,Codigo_emp,0,M:1,Single,50,,0
+UAU OrcamentoAprov,Orcamento.DataIndice_orc,dCalendário,DATA,0,M:1,Single,13,,0
+UAU Simulação,DataCotacao,dCalendário,DATA,1,M:1,Single,719,,0
+UAU Contratos,Empresa_cont,UAU Empresas,Codigo_emp,0,M:1,Single,152,,0
+UAU Controle Desembolso,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,1018,,0
+UAU OrcamentoAprov,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,59,,0
+UAU Pedido de Compra,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,528,,0
+UAU Performace Suprimentos (macro),Empresa,UAU Empresas,Codigo_emp,1,M:1,Single,64,,0
+UAU Simulação,Empresa,UAU Empresas,Codigo_emp,1,M:1,Single,75,,0
+ShPoint Empreendimento,Data de Integraliza_,,,1,M:1,Single,68,,0
+ShPoint Empreendimento,Lançamento,,,1,M:1,Single,64,,0
+UAU Requisição de Compra (OC),DataInicio_ac,,,1,M:1,Single,6,,0
+UAU Requisição de Compra (OC),DataTermino_ac,,,1,M:1,Single,7,,0
+UAU Requisição de Compra (OC),DataCad_ac,,,1,M:1,Single,7,,0
+UAU Req-bdOrdem Compra (2),datager_ocp,,,1,M:1,Single,1805,,0
+UAU Ordem Compra Historico,EmprObr-OC,UAU Req-bdOrdem Compra (2),EmprObr-OC,0,M:1,Single,173736,,0
+UAU Requisição de Compra,DataCad_ac,,,1,M:1,Single,7,,0
+UAU Requisição de Compra (OC),datager_ocp,dCalendário,DATA,1,M:1,Single,410,,0
+UAU Requisição de Compra,DataInicio_ac,,,1,M:1,Single,6,,0
+UAU Requisição de Compra,DataTermino_ac,,,1,M:1,Single,7,,0
+UAU Requisição de Compra (OC),EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,390,,0
+UAU Requisição de Compra (OC),Empresa_ReqComp,UAU Empresas,Codigo_emp,0,M:1,Single,132,,0
+UAU Contratos,dataaprov_apcont,,,1,M:1,Single,183,,0
+UAU Seg Usuários,DataCad_usr,,,1,M:1,Single,779,,0
+UAU Seg Usuários,DataAlt_usr,,,1,M:1,Single,461,,0
+UAU Seg Usuários,DataloginUau_usr,,,1,M:1,Single,2038,,0
+UAU Seg GrupProg,DataCad_gp,,,1,M:1,Single,16609,,0
+UAU Seg UserProg,DataCad_gp,,,1,M:1,Single,908,,0
+UAU Seg UserProg,DataCad_usr,,,1,M:1,Single,484,,0
+UAU Seg UserProg,DataAlt_usr,,,1,M:1,Single,322,,0
+UAU Seg UserProg,DataloginUau_usr,,,1,M:1,Single,1217,,0
+UAU Seg UserProg,Login_usr,UAU Seg Usuários,Login_usr,1,M:1,Both,1422,,0
+UAU Seg UserProg,Prog_gp,UAU Seg Programas,Cod_prg,1,M:1,Both,737,,0
+UAU VwDesembolso,DtPgto_Des,,,1,M:1,Single,3456,,0
+UAU VwDesembolso,PlMes_Des,,,1,M:1,Single,364,,0
+UAU VwDesembolso,DtGeracao_Des,,,1,M:1,Single,2249,,0
+UAU VwDesembolsoPrj,PlMes_Prj,,,1,M:1,Single,387,,0
+UAU VwDesembolsoPrj,DtPgto_Prj,,,1,M:1,Single,2595,,0
+UAU VwDesembolso,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,1524,,0
+UAU VwDesembolsoPrj,EmpObr,UAU Empresas / Obra,EmpObra,1,M:1,Single,1260,,0

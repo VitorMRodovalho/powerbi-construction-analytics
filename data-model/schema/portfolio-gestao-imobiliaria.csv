@@ -1,0 +1,137 @@
+TableName,ColumnName,PandasDataType
+Avanco Físico de Obra,Empreendimento,string
+Avanco Físico de Obra,Tipologia ,string
+Avanco Físico de Obra,Total,Float64
+Avanco Físico de Obra,Terraplenagem,Float64
+Avanco Físico de Obra,Drenagem de águas pluviais,string
+Avanco Físico de Obra,Rede de água,Float64
+Avanco Físico de Obra,Sistema de abastecimento de água,Float64
+Avanco Físico de Obra,Sistema de abastecimento de esgoto,Float64
+Avanco Físico de Obra,Rede elétrica,Float64
+Avanco Físico de Obra,Pavimentação,Float64
+Avanco Físico de Obra,Total_1,Float64
+Avanco Físico de Obra,Fundação,Float64
+Avanco Físico de Obra,Estrutura,Float64
+Avanco Físico de Obra,Alvenaria,Float64
+Avanco Físico de Obra,Instalações,Float64
+Avanco Físico de Obra,Acabamento,Float64
+Base,Empreendimento,string
+Base,Nota Final,string
+Base,Empreendedor,string
+Base,Tipologia ,string
+Base,Parceiro,string
+Base,Nome do Parceiro,string
+Base,Nº Parceiro,string
+Base,Construtora,string
+Base,índice de correção,string
+Base,Data de Integralização,string
+Base,Data de Lançamento - Fase 1,string
+Base,Data Início de Obra,string
+Base,Data Fim de Obra,string
+Base,Típico / Atípico,string
+Base,Fase do Empreendimento,string
+Base,Tipo Contratação de Obra,string
+Base,Região,string
+Base,Cidade,string
+Base,Estado,string
+Base,Sigla Estado,string
+Base,Governança,string
+Base,% de particiação do FII,string
+Base,Tipo de permuta terreneiro,string
+Base,% Permuta terreneiro,string
+Base,Sigla,string
+Base,Cod_UAU,string
+Base,Obra2,string
+Base,Cod_Guard,string
+Base,Unidades Vendáveis,Int64
+Base,Unidades Vendidas,Int64
+Base,Estoque,Int64
+Base,VGV Total,Int64
+Base,VGV Permutado,string
+Base,VGV Lançado,Int64
+Base,VGV a Lançar,string
+Base,VGV Vendido,Int64
+Base,VSO,string
+Base,Receita Bruta,string
+Base,Receita Líquida,string
+Base,Obra Alvo,Int64
+Base,Obra Total (Acp),Int64
+Base,Desvio de Obra,Int64
+Base,% de Desvio,Float64
+Base,Obra Realizado,Int64
+Base,Obra a Realizar,Int64
+Base,Lucro/Prejuízo Contábil,string
+Base,Resultado do Exercício,string
+Base,Patrimônio Líquido,string
+Base,Lucro Distribuído,string
+Base,Resultado do Projeto,string
+Base,Resultado FII,string
+Base,Margem Projeto,Float64
+Base,Margem FII,Float64
+Base,TIR Projeto,Float64
+Base,TIR FII,Float64
+Base,Pró negócio (custos / valor),string
+Base,Conhece o negócio,string
+Base,Disponível,string
+Base,Célere nas decisoes (até D+2),string
+Base,Equipe tecnica back / suporte,string
+Base,Cordial,string
+Base,Endereço,string
+Base,Veículo Principal,string
+Base,TIR + Margem,string
+Base,Nota TIR,string
+Base,Nota Margem,string
+Base,Nota Obra,string
+Base,Nota Operacional,string
+Base,Líder de relacionamento,string
+Base,Tipo de Orçamento,string
+Base,Sub Fase,string
+Base,Unidades Total,string
+Base,Cotas Vendáveis,string
+Base,Cotas Vendidas,string
+Base,Estoque de Cotas,string
+Base,Obra Total Acp/VGV Vendável,Float64
+Base,Status Margem,string
+Base,Status TIR,string
+Base,Status Final,string
+Base,Status Plano de Ação,string
+Base,Tipo de atualização,string
+Base,Controladoria,string
+Base,Exposição 2022,string
+Base,Exposição Até out/22,string
+Base,Exposição de Out. a Dez,string
+Base,Ponta,string
+Base,ÁREA TOTAL DE CONSTRUÇÃO,Float64
+Base,Peso Desvio,string
+Base,Nota Contábil,string
+Base,Nota Financeiro,string
+Base,Dia contábil,string
+Base,Dia financeiro,string
+Base,Fechamento Contábil,string
+Base,Fechamento Financeiro,string
+Base,Endereço2,string
+Base,Logo/Foto,string
+Base,História,string
+Base,Observação Líder,string
+Base,Logo,string
+Base,Foto Empreendimento,string
+Base,Área Privativa/Lotes,string
+Base,Área Total Construída,string
+Base,Obra/m² de AC,Float64
+Base,Obra/m² de AP,Float64
+Base,Área Total Construída2,string
+Base,Área Total Construída22,string
+Base,Endereço3,string
+Base,Obra m²,string
+Base,VGV Total Líquido,string
+Base,Área PXR,string
+Base,total construída,string
+Base,% Desvio,string
+Base,GAP Parâmetro,Float64
+Base,Parâmetro de Comparação,Float64
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Ano,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,MonthNo,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Mês,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,QuarterNo,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Trimestre,object
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Dia,object

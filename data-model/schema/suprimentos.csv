@@ -1,0 +1,900 @@
+TableName,ColumnName,PandasDataType
+DataFinal,DataFinal,datetime64[ns]
+DataInicial,DataInicial,datetime64[ns]
+DateTableTemplate_94599013-d882-45a4-96ee-ed0115f994df,Ano,object
+DateTableTemplate_94599013-d882-45a4-96ee-ed0115f994df,MonthNo,object
+DateTableTemplate_94599013-d882-45a4-96ee-ed0115f994df,Mês,object
+DateTableTemplate_94599013-d882-45a4-96ee-ed0115f994df,QuarterNo,object
+DateTableTemplate_94599013-d882-45a4-96ee-ed0115f994df,Trimestre,object
+DateTableTemplate_94599013-d882-45a4-96ee-ed0115f994df,Dia,object
+Faixa Aprovação Incorporação,Faixa Aprovação,string
+Faixa Aprovação Incorporação,Min,Int64
+Faixa Aprovação Incorporação,Max,Float64
+Faixa Aprovação Incorporação,Comite Minimo,string
+Faixa Aprovação Multipropriedade,Faixa Aprovação,string
+Faixa Aprovação Multipropriedade,Min,Int64
+Faixa Aprovação Multipropriedade,Max,Float64
+Faixa Aprovação Multipropriedade,Comite Minimo,string
+Faixa Aprovação Urbanismo,Faixa Aprovação,string
+Faixa Aprovação Urbanismo,Min,Int64
+Faixa Aprovação Urbanismo,Max,Float64
+Faixa Aprovação Urbanismo,Comite Minimo,string
+LocalDateTable_09a0781b-1086-454e-9202-5f22c6640f80,Ano,object
+LocalDateTable_09a0781b-1086-454e-9202-5f22c6640f80,MonthNo,object
+LocalDateTable_09a0781b-1086-454e-9202-5f22c6640f80,Mês,object
+LocalDateTable_09a0781b-1086-454e-9202-5f22c6640f80,QuarterNo,object
+LocalDateTable_09a0781b-1086-454e-9202-5f22c6640f80,Trimestre,object
+LocalDateTable_09a0781b-1086-454e-9202-5f22c6640f80,Dia,object
+LocalDateTable_10cb6669-f79f-4abf-9add-fa8cc12ea641,Ano,object
+LocalDateTable_10cb6669-f79f-4abf-9add-fa8cc12ea641,MonthNo,object
+LocalDateTable_10cb6669-f79f-4abf-9add-fa8cc12ea641,Mês,object
+LocalDateTable_10cb6669-f79f-4abf-9add-fa8cc12ea641,QuarterNo,object
+LocalDateTable_10cb6669-f79f-4abf-9add-fa8cc12ea641,Trimestre,object
+LocalDateTable_10cb6669-f79f-4abf-9add-fa8cc12ea641,Dia,object
+LocalDateTable_1913a615-0300-4c30-b303-824e647c7b06,Ano,object
+LocalDateTable_1913a615-0300-4c30-b303-824e647c7b06,MonthNo,object
+LocalDateTable_1913a615-0300-4c30-b303-824e647c7b06,Mês,object
+LocalDateTable_1913a615-0300-4c30-b303-824e647c7b06,QuarterNo,object
+LocalDateTable_1913a615-0300-4c30-b303-824e647c7b06,Trimestre,object
+LocalDateTable_1913a615-0300-4c30-b303-824e647c7b06,Dia,object
+LocalDateTable_209d8351-5366-4714-bebf-299e3063f0de,Ano,object
+LocalDateTable_209d8351-5366-4714-bebf-299e3063f0de,MonthNo,object
+LocalDateTable_209d8351-5366-4714-bebf-299e3063f0de,Mês,object
+LocalDateTable_209d8351-5366-4714-bebf-299e3063f0de,QuarterNo,object
+LocalDateTable_209d8351-5366-4714-bebf-299e3063f0de,Trimestre,object
+LocalDateTable_209d8351-5366-4714-bebf-299e3063f0de,Dia,object
+LocalDateTable_220fa116-b653-4aa2-a7e5-940a3a9f8a2d,Ano,object
+LocalDateTable_220fa116-b653-4aa2-a7e5-940a3a9f8a2d,MonthNo,object
+LocalDateTable_220fa116-b653-4aa2-a7e5-940a3a9f8a2d,Mês,object
+LocalDateTable_220fa116-b653-4aa2-a7e5-940a3a9f8a2d,QuarterNo,object
+LocalDateTable_220fa116-b653-4aa2-a7e5-940a3a9f8a2d,Trimestre,object
+LocalDateTable_220fa116-b653-4aa2-a7e5-940a3a9f8a2d,Dia,object
+LocalDateTable_346f2357-e2d8-40ba-916b-9afa85cc0cc5,Ano,object
+LocalDateTable_346f2357-e2d8-40ba-916b-9afa85cc0cc5,MonthNo,object
+LocalDateTable_346f2357-e2d8-40ba-916b-9afa85cc0cc5,Mês,object
+LocalDateTable_346f2357-e2d8-40ba-916b-9afa85cc0cc5,QuarterNo,object
+LocalDateTable_346f2357-e2d8-40ba-916b-9afa85cc0cc5,Trimestre,object
+LocalDateTable_346f2357-e2d8-40ba-916b-9afa85cc0cc5,Dia,object
+LocalDateTable_3821679b-930a-45cc-ac7f-ecafa66627fb,Ano,object
+LocalDateTable_3821679b-930a-45cc-ac7f-ecafa66627fb,MonthNo,object
+LocalDateTable_3821679b-930a-45cc-ac7f-ecafa66627fb,Mês,object
+LocalDateTable_3821679b-930a-45cc-ac7f-ecafa66627fb,QuarterNo,object
+LocalDateTable_3821679b-930a-45cc-ac7f-ecafa66627fb,Trimestre,object
+LocalDateTable_3821679b-930a-45cc-ac7f-ecafa66627fb,Dia,object
+LocalDateTable_3c7dbd06-d89d-488d-ab37-239af5a23578,Ano,object
+LocalDateTable_3c7dbd06-d89d-488d-ab37-239af5a23578,MonthNo,object
+LocalDateTable_3c7dbd06-d89d-488d-ab37-239af5a23578,Mês,object
+LocalDateTable_3c7dbd06-d89d-488d-ab37-239af5a23578,QuarterNo,object
+LocalDateTable_3c7dbd06-d89d-488d-ab37-239af5a23578,Trimestre,object
+LocalDateTable_3c7dbd06-d89d-488d-ab37-239af5a23578,Dia,object
+LocalDateTable_3d39646d-3648-43eb-b18a-65ab2e32ef9d,Ano,object
+LocalDateTable_3d39646d-3648-43eb-b18a-65ab2e32ef9d,MonthNo,object
+LocalDateTable_3d39646d-3648-43eb-b18a-65ab2e32ef9d,Mês,object
+LocalDateTable_3d39646d-3648-43eb-b18a-65ab2e32ef9d,QuarterNo,object
+LocalDateTable_3d39646d-3648-43eb-b18a-65ab2e32ef9d,Trimestre,object
+LocalDateTable_3d39646d-3648-43eb-b18a-65ab2e32ef9d,Dia,object
+LocalDateTable_49917949-3817-4cae-963f-90f29baef3b1,Ano,object
+LocalDateTable_49917949-3817-4cae-963f-90f29baef3b1,MonthNo,object
+LocalDateTable_49917949-3817-4cae-963f-90f29baef3b1,Mês,object
+LocalDateTable_49917949-3817-4cae-963f-90f29baef3b1,QuarterNo,object
+LocalDateTable_49917949-3817-4cae-963f-90f29baef3b1,Trimestre,object
+LocalDateTable_49917949-3817-4cae-963f-90f29baef3b1,Dia,object
+LocalDateTable_4dc0b8fe-ee30-43b3-bec8-12f006619152,Ano,object
+LocalDateTable_4dc0b8fe-ee30-43b3-bec8-12f006619152,MonthNo,object
+LocalDateTable_4dc0b8fe-ee30-43b3-bec8-12f006619152,Mês,object
+LocalDateTable_4dc0b8fe-ee30-43b3-bec8-12f006619152,QuarterNo,object
+LocalDateTable_4dc0b8fe-ee30-43b3-bec8-12f006619152,Trimestre,object
+LocalDateTable_4dc0b8fe-ee30-43b3-bec8-12f006619152,Dia,object
+LocalDateTable_4f5a7ddf-86db-4581-a3bd-434b8a3663d4,Ano,object
+LocalDateTable_4f5a7ddf-86db-4581-a3bd-434b8a3663d4,MonthNo,object
+LocalDateTable_4f5a7ddf-86db-4581-a3bd-434b8a3663d4,Mês,object
+LocalDateTable_4f5a7ddf-86db-4581-a3bd-434b8a3663d4,QuarterNo,object
+LocalDateTable_4f5a7ddf-86db-4581-a3bd-434b8a3663d4,Trimestre,object
+LocalDateTable_4f5a7ddf-86db-4581-a3bd-434b8a3663d4,Dia,object
+LocalDateTable_4f7aabba-8db5-4abe-9f01-c4350a78d011,Ano,object
+LocalDateTable_4f7aabba-8db5-4abe-9f01-c4350a78d011,MonthNo,object
+LocalDateTable_4f7aabba-8db5-4abe-9f01-c4350a78d011,Mês,object
+LocalDateTable_4f7aabba-8db5-4abe-9f01-c4350a78d011,QuarterNo,object
+LocalDateTable_4f7aabba-8db5-4abe-9f01-c4350a78d011,Trimestre,object
+LocalDateTable_4f7aabba-8db5-4abe-9f01-c4350a78d011,Dia,object
+LocalDateTable_56d3e7ab-5dbf-4020-9105-df46fe55f88a,Ano,object
+LocalDateTable_56d3e7ab-5dbf-4020-9105-df46fe55f88a,MonthNo,object
+LocalDateTable_56d3e7ab-5dbf-4020-9105-df46fe55f88a,Mês,object
+LocalDateTable_56d3e7ab-5dbf-4020-9105-df46fe55f88a,QuarterNo,object
+LocalDateTable_56d3e7ab-5dbf-4020-9105-df46fe55f88a,Trimestre,object
+LocalDateTable_56d3e7ab-5dbf-4020-9105-df46fe55f88a,Dia,object
+LocalDateTable_5be59c0a-9a77-4fc9-aaff-1092a633260e,Ano,object
+LocalDateTable_5be59c0a-9a77-4fc9-aaff-1092a633260e,MonthNo,object
+LocalDateTable_5be59c0a-9a77-4fc9-aaff-1092a633260e,Mês,object
+LocalDateTable_5be59c0a-9a77-4fc9-aaff-1092a633260e,QuarterNo,object
+LocalDateTable_5be59c0a-9a77-4fc9-aaff-1092a633260e,Trimestre,object
+LocalDateTable_5be59c0a-9a77-4fc9-aaff-1092a633260e,Dia,object
+LocalDateTable_6a3a3e23-d9f1-4453-9b15-397d7f160228,Ano,object
+LocalDateTable_6a3a3e23-d9f1-4453-9b15-397d7f160228,MonthNo,object
+LocalDateTable_6a3a3e23-d9f1-4453-9b15-397d7f160228,Mês,object
+LocalDateTable_6a3a3e23-d9f1-4453-9b15-397d7f160228,QuarterNo,object
+LocalDateTable_6a3a3e23-d9f1-4453-9b15-397d7f160228,Trimestre,object
+LocalDateTable_6a3a3e23-d9f1-4453-9b15-397d7f160228,Dia,object
+LocalDateTable_7ae58e69-4ebe-42aa-abc9-7a6bdc704889,Ano,object
+LocalDateTable_7ae58e69-4ebe-42aa-abc9-7a6bdc704889,MonthNo,object
+LocalDateTable_7ae58e69-4ebe-42aa-abc9-7a6bdc704889,Mês,object
+LocalDateTable_7ae58e69-4ebe-42aa-abc9-7a6bdc704889,QuarterNo,object
+LocalDateTable_7ae58e69-4ebe-42aa-abc9-7a6bdc704889,Trimestre,object
+LocalDateTable_7ae58e69-4ebe-42aa-abc9-7a6bdc704889,Dia,object
+LocalDateTable_7d397acc-e332-4a28-a2ed-04d479935739,Ano,object
+LocalDateTable_7d397acc-e332-4a28-a2ed-04d479935739,MonthNo,object
+LocalDateTable_7d397acc-e332-4a28-a2ed-04d479935739,Mês,object
+LocalDateTable_7d397acc-e332-4a28-a2ed-04d479935739,QuarterNo,object
+LocalDateTable_7d397acc-e332-4a28-a2ed-04d479935739,Trimestre,object
+LocalDateTable_7d397acc-e332-4a28-a2ed-04d479935739,Dia,object
+LocalDateTable_8e5e096d-6934-409b-9db5-d267d97ae78d,Ano,object
+LocalDateTable_8e5e096d-6934-409b-9db5-d267d97ae78d,MonthNo,object
+LocalDateTable_8e5e096d-6934-409b-9db5-d267d97ae78d,Mês,object
+LocalDateTable_8e5e096d-6934-409b-9db5-d267d97ae78d,QuarterNo,object
+LocalDateTable_8e5e096d-6934-409b-9db5-d267d97ae78d,Trimestre,object
+LocalDateTable_8e5e096d-6934-409b-9db5-d267d97ae78d,Dia,object
+LocalDateTable_9325eb35-2a9a-4d5e-8862-48de675ae82c,Ano,object
+LocalDateTable_9325eb35-2a9a-4d5e-8862-48de675ae82c,MonthNo,object
+LocalDateTable_9325eb35-2a9a-4d5e-8862-48de675ae82c,Mês,object
+LocalDateTable_9325eb35-2a9a-4d5e-8862-48de675ae82c,QuarterNo,object
+LocalDateTable_9325eb35-2a9a-4d5e-8862-48de675ae82c,Trimestre,object
+LocalDateTable_9325eb35-2a9a-4d5e-8862-48de675ae82c,Dia,object
+LocalDateTable_a4109498-154e-4eb1-8a2e-bac7b3d73fd2,Ano,object
+LocalDateTable_a4109498-154e-4eb1-8a2e-bac7b3d73fd2,MonthNo,object
+LocalDateTable_a4109498-154e-4eb1-8a2e-bac7b3d73fd2,Mês,object
+LocalDateTable_a4109498-154e-4eb1-8a2e-bac7b3d73fd2,QuarterNo,object
+LocalDateTable_a4109498-154e-4eb1-8a2e-bac7b3d73fd2,Trimestre,object
+LocalDateTable_a4109498-154e-4eb1-8a2e-bac7b3d73fd2,Dia,object
+LocalDateTable_aa7ed345-26b4-469b-8cd3-30f39ce6aab8,Ano,object
+LocalDateTable_aa7ed345-26b4-469b-8cd3-30f39ce6aab8,MonthNo,object
+LocalDateTable_aa7ed345-26b4-469b-8cd3-30f39ce6aab8,Mês,object
+LocalDateTable_aa7ed345-26b4-469b-8cd3-30f39ce6aab8,QuarterNo,object
+LocalDateTable_aa7ed345-26b4-469b-8cd3-30f39ce6aab8,Trimestre,object
+LocalDateTable_aa7ed345-26b4-469b-8cd3-30f39ce6aab8,Dia,object
+LocalDateTable_b685d9e5-2a68-4bd4-90c1-980cd29e7cdb,Ano,object
+LocalDateTable_b685d9e5-2a68-4bd4-90c1-980cd29e7cdb,MonthNo,object
+LocalDateTable_b685d9e5-2a68-4bd4-90c1-980cd29e7cdb,Mês,object
+LocalDateTable_b685d9e5-2a68-4bd4-90c1-980cd29e7cdb,QuarterNo,object
+LocalDateTable_b685d9e5-2a68-4bd4-90c1-980cd29e7cdb,Trimestre,object
+LocalDateTable_b685d9e5-2a68-4bd4-90c1-980cd29e7cdb,Dia,object
+LocalDateTable_bd1f5fe1-fc5e-4eac-83c6-22c164ed862e,Ano,object
+LocalDateTable_bd1f5fe1-fc5e-4eac-83c6-22c164ed862e,MonthNo,object
+LocalDateTable_bd1f5fe1-fc5e-4eac-83c6-22c164ed862e,Mês,object
+LocalDateTable_bd1f5fe1-fc5e-4eac-83c6-22c164ed862e,QuarterNo,object
+LocalDateTable_bd1f5fe1-fc5e-4eac-83c6-22c164ed862e,Trimestre,object
+LocalDateTable_bd1f5fe1-fc5e-4eac-83c6-22c164ed862e,Dia,object
+LocalDateTable_c44969d6-e517-43c5-b20c-3baf73c43db3,Ano,object
+LocalDateTable_c44969d6-e517-43c5-b20c-3baf73c43db3,MonthNo,object
+LocalDateTable_c44969d6-e517-43c5-b20c-3baf73c43db3,Mês,object
+LocalDateTable_c44969d6-e517-43c5-b20c-3baf73c43db3,QuarterNo,object
+LocalDateTable_c44969d6-e517-43c5-b20c-3baf73c43db3,Trimestre,object
+LocalDateTable_c44969d6-e517-43c5-b20c-3baf73c43db3,Dia,object
+LocalDateTable_d47d5105-d558-468c-be80-e78daa0de043,Ano,object
+LocalDateTable_d47d5105-d558-468c-be80-e78daa0de043,MonthNo,object
+LocalDateTable_d47d5105-d558-468c-be80-e78daa0de043,Mês,object
+LocalDateTable_d47d5105-d558-468c-be80-e78daa0de043,QuarterNo,object
+LocalDateTable_d47d5105-d558-468c-be80-e78daa0de043,Trimestre,object
+LocalDateTable_d47d5105-d558-468c-be80-e78daa0de043,Dia,object
+LocalDateTable_e99665a2-20e0-46c2-9afe-aa19878b699d,Ano,object
+LocalDateTable_e99665a2-20e0-46c2-9afe-aa19878b699d,MonthNo,object
+LocalDateTable_e99665a2-20e0-46c2-9afe-aa19878b699d,Mês,object
+LocalDateTable_e99665a2-20e0-46c2-9afe-aa19878b699d,QuarterNo,object
+LocalDateTable_e99665a2-20e0-46c2-9afe-aa19878b699d,Trimestre,object
+LocalDateTable_e99665a2-20e0-46c2-9afe-aa19878b699d,Dia,object
+LocalDateTable_ec98d5a1-4ddc-4977-92e3-2cd6387fdcc4,Ano,object
+LocalDateTable_ec98d5a1-4ddc-4977-92e3-2cd6387fdcc4,MonthNo,object
+LocalDateTable_ec98d5a1-4ddc-4977-92e3-2cd6387fdcc4,Mês,object
+LocalDateTable_ec98d5a1-4ddc-4977-92e3-2cd6387fdcc4,QuarterNo,object
+LocalDateTable_ec98d5a1-4ddc-4977-92e3-2cd6387fdcc4,Trimestre,object
+LocalDateTable_ec98d5a1-4ddc-4977-92e3-2cd6387fdcc4,Dia,object
+LocalDateTable_f4fe28ec-af05-4310-9f45-b398fe4cea85,Ano,object
+LocalDateTable_f4fe28ec-af05-4310-9f45-b398fe4cea85,MonthNo,object
+LocalDateTable_f4fe28ec-af05-4310-9f45-b398fe4cea85,Mês,object
+LocalDateTable_f4fe28ec-af05-4310-9f45-b398fe4cea85,QuarterNo,object
+LocalDateTable_f4fe28ec-af05-4310-9f45-b398fe4cea85,Trimestre,object
+LocalDateTable_f4fe28ec-af05-4310-9f45-b398fe4cea85,Dia,object
+LocalDateTable_fe7d8abd-31f7-49d8-81c5-288e5b72a485,Ano,object
+LocalDateTable_fe7d8abd-31f7-49d8-81c5-288e5b72a485,MonthNo,object
+LocalDateTable_fe7d8abd-31f7-49d8-81c5-288e5b72a485,Mês,object
+LocalDateTable_fe7d8abd-31f7-49d8-81c5-288e5b72a485,QuarterNo,object
+LocalDateTable_fe7d8abd-31f7-49d8-81c5-288e5b72a485,Trimestre,object
+LocalDateTable_fe7d8abd-31f7-49d8-81c5-288e5b72a485,Dia,object
+ShPoint Empreendimento,Data de Integraliza_,datetime64[ns]
+ShPoint Empreendimento,Lançamento,datetime64[ns]
+ShPoint Empreendimento,Estado,string
+ShPoint Empreendimento,Cidade,string
+ShPoint Empreendimento,Title,string
+ShPoint Empreendimento,Status,string
+ShPoint Empreendimento,TipodeGovenança,string
+ShPoint Empreendimento,Tipologia,string
+ShPoint Empreendimento,VGV Expectativa,decimal.Decimal
+ShPoint Empreendimento,Público Alvo,string
+ShPoint Empreendimento,Observação,string
+ShPoint Empreendimento,Sigla,string
+ShPoint Empreendimento,Qual % de_x002,string
+ShPoint Empreendimento,CódigoRealEstateCo,string
+ShPoint Empreendimento,FasedeOperação,string
+ShPoint Empreendimento,Created,string
+ShPoint Empreendimento,ERP.OrigemERP,string
+ShPoint Empreendimento,ERP.Empresa,string
+ShPoint Empreendimento,ERP.ERP,string
+ShPoint Empreendimento,Parceiro.Title,string
+ShPoint Empreendimento,Ponta,string
+ShPoint Empreendimento,Ponta.EMail,string
+ShPoint Empreendimento,Líder Relacionamento,string
+ShPoint Empreendimento,LíderEspecialista.EMail,string
+ShPoint Empreendimento,Fundo 2.Title,string
+ShPoint Empreendimento,Holding Nível .Title,string
+ShPoint Empreendimento,SPE's.field_1,string
+ShPoint Empreendimento,SPE's.field_2,string
+ShPoint Empreendimento,UAU.Emp.SPE's.,Int64
+ShPoint Empreendimento,SPE's.field_13,string
+ShPoint Empreendimento,IddeProjeto,string
+UAU Contratos,Empresa_cont,Int64
+UAU Contratos,Cod_cont,Int64
+UAU Contratos,Obra_cont,string
+UAU Contratos,CodPes_cont,Int64
+UAU Contratos,Objeto_cont,string
+UAU Contratos,DtCriacao_cont,datetime64[ns]
+UAU Contratos,DtInicio_cont,datetime64[ns]
+UAU Contratos,DtFim_cont,datetime64[ns]
+UAU Contratos,Quem_cont,string
+UAU Contratos,Situacao_cont,Int64
+UAU Contratos,Tipo_Cont,string
+UAU Contratos,Estagio_Cont,string
+UAU Contratos,Obs_cont,string
+UAU Contratos,Status_cont,Int64
+UAU Contratos,CondPag_cont,string
+UAU Contratos,EndPag_cont,string
+UAU Contratos,CondEnt_cont,string
+UAU Contratos,TipoPgto_cont,Int64
+UAU Contratos,TipoEndPag_cont,Int64
+UAU Contratos,Anexos_Cont,Int64
+UAU Contratos,controle_cont,Int64
+UAU Contratos,TipoCont_cont,Int64
+UAU Contratos,EmpPaga_cont,Int64
+UAU Contratos,EmpFatura_cont,Int64
+UAU Contratos,TipoServMat_Cont,Int64
+UAU Contratos,CasaDecQtde_Cont,Int64
+UAU Contratos,CasaDecPreco_Cont,Int64
+UAU Contratos,MotivoAlter_cont,string
+UAU Contratos,CarenciaBloqueioPrazo_cont,Int64
+UAU Contratos,Banco_cont,Int64
+UAU Contratos,Conta_cont,string
+UAU Contratos,CategMovFin_cont,string
+UAU Contratos,ContratoAtual_cont,bool
+UAU Contratos,AdiantParcial_cont,bool
+UAU Contratos,NaoControlarEstAdiant_cont,bool
+UAU Contratos,Desc_emp,string
+UAU Contratos,descr_obr,string
+UAU Contratos,Nome_pes,string
+UAU Contratos,AtInat_TipCon,Int64
+UAU Contratos,Total,Float64
+UAU Contratos,ValorMedido,Float64
+UAU Contratos,Acrescimos,Float64
+UAU Contratos,EmpObr,string
+UAU Contratos,EmpObr-Ctr,string
+UAU Contratos,usraprov_apcont,string
+UAU Contratos,dataaprov_apcont,datetime64[ns]
+UAU Contratos,TipoValorLimiteAdiant_cont,bool
+UAU Contratos,ValorLimiteAdiant_cont,Float64
+UAU Contratos Medição,anexos_med,Int64
+UAU Contratos Medição,empresa_med,Int64
+UAU Contratos Medição,Contrato_med,string
+UAU Contratos Medição,cod_med,Int64
+UAU Contratos Medição,desc_med,Float64
+UAU Contratos Medição,descvinc_med,Float64
+UAU Contratos Medição,vlrdesc,Float64
+UAU Contratos Medição,acres_med,Float64
+UAU Contratos Medição,Obra_cont,string
+UAU Contratos Medição,valor_med,Float64
+UAU Contratos Medição,obs_med,string
+UAU Contratos Medição,Total,Float64
+UAU Contratos Medição,dtcriacao_med,datetime64[ns]
+UAU Contratos Medição,quem_med,string
+UAU Contratos Medição,status_med,Int64
+UAU Contratos Medição,usraprov_med,string
+UAU Contratos Medição,dataaprov_med,datetime64[ns]
+UAU Contratos Medição,ultima_med,Int64
+UAU Contratos Medição,codpes_cont,Int64
+UAU Contratos Medição,ContratoMed,Int64
+UAU Contratos Medição,codpes_med,Int64
+UAU Contratos Medição,NomeFornecedor,string
+UAU Contratos Medição,nome_pes,string
+UAU Contratos Medição,ValorExcedente_med,Float64
+UAU Contratos Medição,descr_obr,string
+UAU Contratos Medição,desc_emp,string
+UAU Contratos Medição,datareajuste_med,datetime64[ns]
+UAU Contratos Medição,DataInicio,datetime64[ns]
+UAU Contratos Medição,DataFim,datetime64[ns]
+UAU Contratos Medição,ValorFind,string
+UAU Contratos Medição,EmpObr,string
+UAU Contratos Medição,EmpObr-Ctr,string
+UAU Controle Desembolso,mes_cd,datetime64[ns]
+UAU Controle Desembolso,valor_cd,Float64
+UAU Controle Desembolso,Projetado,Float64
+UAU Controle Desembolso,Pago,Float64
+UAU Controle Desembolso,ControleFinanceiro,Float64
+UAU Controle Desembolso,A_Paga,Float64
+UAU Controle Desembolso,empresa_cd,Int64
+UAU Controle Desembolso,obra_cd,string
+UAU Controle Desembolso,Saldo,Float64
+UAU Controle Desembolso,EmpObr,string
+UAU Empresas,Codigo_emp,Int64
+UAU Empresas,Desc_emp,string
+UAU Empresas,CGC_emp,string
+UAU Empresas,IE_emp,string
+UAU Empresas,Endereco_emp,string
+UAU Empresas,Setor_emp,string
+UAU Empresas,Cidade_emp,string
+UAU Empresas,UF_emp,string
+UAU Empresas,CEP_emp,string
+UAU Empresas,Fone_emp,string
+UAU Empresas,Fax_emp,string
+UAU Empresas,RedIcms_emp,Float64
+UAU Empresas,IpiIsenta_emp,Int64
+UAU Empresas,AtInat_emp,Int64
+UAU Empresas,CodEmPresaNet_emp,string
+UAU Empresas,Anexos_Emp,Int64
+UAU Empresas,InscrMunic_emp,string
+UAU Empresas,EmpresaFolha_emp,string
+UAU Empresas,NumCid_emp,Int64
+UAU Empresas,email_emp,string
+UAU Empresas,TipoInsc_emp,Int64
+UAU Empresas,NumEnd_emp,string
+UAU Empresas,OptSimples_emp,Int64
+UAU Empresas,QtdeSocio_Emp,Int64
+UAU Empresas,DDDFone_Emp,string
+UAU Empresas,DDDFax_Emp,string
+UAU Empresas,IncetivadorCultural_emp,bool
+UAU Empresas,CodIdxCorrPat_Emp,string
+UAU Empresas,CodIdxIndPat_Emp,string
+UAU Empresas,DataSimples_emp,datetime64[ns]
+UAU Empresas,InsNIRE_emp,string
+UAU Empresas,InsSuframa_emp,string
+UAU Empresas,NumBrr_emp,Int64
+UAU Empresas,NumLogr_emp,Int64
+UAU Empresas,NumCd_emp,Int64
+UAU Empresas,CodPesEmpresa_emp,Int64
+UAU Empresas,CodGrupo_emp,string
+UAU Empresas,Empresa_efisc,Int64
+UAU Empresas,RegTributario_efisc,Int64
+UAU Empresas,IdentificadorSCP_efisc,string
+UAU Empresas,TipoEscrituracao_efisc,Int64
+UAU Empresas,BuscaReceitaSPED_efisc,Int64
+UAU Empresas,ReceitaValFuturoSPED_efisc,bool
+UAU Empresas,CodigoArb_efisc,string
+UAU Empresas,CodigoCMC_efisc,string
+UAU Empresas,NumApiEntrada_efisc,Int64
+UAU Empresas,NumApiSaida_efisc,Int64
+UAU Empresas,PorcCreditoSimplesNacional_efisc,Float64
+UAU Empresas,IndObrigatoriedadeECD_efisc,bool
+UAU Empresas,EnviarEFDReinf_efisc,bool
+UAU Empresas,DataInicioValidadeReinf_efisc,datetime64[ns]
+UAU Empresas,TipoAmbienteReinf_efisc,Int64
+UAU Empresas,ContabilizaPagadora_efisc,bool
+UAU Empresas,TipoContribuinteICMS_efisc,Int64
+UAU Empresas,NumApiEntradaServ_efisc,Int64
+UAU Empresas,NumApiSaidaServ_efisc,Int64
+UAU Empresas,SerieNFSaidaServ_efisc,string
+UAU Empresas,CriarDocFiscalProcApuracao_efisc,bool
+UAU Empresas,EspecieDocFiscalProcApuracao_efisc,string
+UAU Empresas,GerarGuiaTributoApuracao_efisc,bool
+UAU Empresas,ParcelarPagamentoApuracao_efisc,bool
+UAU Empresas,QtdeParcelasPgtoApuracao_efisc,Int64
+UAU Empresas,ValorMinimoPgtoApuracao_efisc,Float64
+UAU Empresas,CodEmp - DescEmp,string
+UAU Empresas,SerieNFEntradaServ_efisc,string
+UAU Empresas / Obra,Codigo_emp,Int64
+UAU Empresas / Obra,Desc_emp,string
+UAU Empresas / Obra,Setor_emp,string
+UAU Empresas / Obra,Cidade_emp,string
+UAU Empresas / Obra,UF_emp,string
+UAU Empresas / Obra,CodGrupo_emp,string
+UAU Empresas / Obra,cod_obr,string
+UAU Empresas / Obra,DescGrupoObra,string
+UAU Empresas / Obra,EmpObra,string
+UAU Empresas / Obra,Cod.EmpObr - GrupoObra,string
+UAU OrcamentoAprov,Cod_OrcAp,Int64
+UAU OrcamentoAprov,Empresa_OrcAp,Int64
+UAU OrcamentoAprov,Obra_OrcAp,string
+UAU OrcamentoAprov,CodOrc_OrcAp,Int64
+UAU OrcamentoAprov,UsrCad_OrcAp,string
+UAU OrcamentoAprov,DataCad_OrcAp,datetime64[ns]
+UAU OrcamentoAprov,UsrDel_OrcAp,string
+UAU OrcamentoAprov,DataDel_OrcAp,datetime64[ns]
+UAU OrcamentoAprov,Obs_OrcAp,string
+UAU OrcamentoAprov,Orcamento.Desc_orc,string
+UAU OrcamentoAprov,Orcamento.Quem_orc,string
+UAU OrcamentoAprov,Orcamento.CustoTot_orc,decimal.Decimal
+UAU OrcamentoAprov,Orcamento.BDI_orc,Int64
+UAU OrcamentoAprov,Orcamento.Indexado_orc,Int64
+UAU OrcamentoAprov,Orcamento.Indice_orc,string
+UAU OrcamentoAprov,Orcamento.DataIndice_orc,datetime64[ns]
+UAU OrcamentoAprov,Orcamento.Calculado_orc,Int64
+UAU OrcamentoAprov,Orcamento.CalcBDIGeral_orc,bool
+UAU OrcamentoAprov,Orcamento.Objeto_Orc,string
+UAU OrcamentoAprov,Orcamento.TipoFormatacao_orc,Float64
+UAU OrcamentoAprov,Orcamento.PeriodoCronograma_orc,Int64
+UAU OrcamentoAprov,Orcamento.ControleFisico_orc,bool
+UAU OrcamentoAprov,EmpObr,string
+UAU Ordem Compra,total,Float64
+UAU Ordem Compra,empresa_ocp,Int64
+UAU Ordem Compra,codforn_ocp,Int64
+UAU Ordem Compra,anexos_ocp,Int64
+UAU Ordem Compra,usuario_ocp,string
+UAU Ordem Compra,numerooc_ocp,Int64
+UAU Ordem Compra,datager_ocp,datetime64[ns]
+UAU Ordem Compra,obra_ocp,string
+UAU Ordem Compra,tipo_ocp,Int64
+UAU Ordem Compra,emppaga_ocp,Int64
+UAU Ordem Compra,empfatura_ocp,Int64
+UAU Ordem Compra,numcot_ocp,Int64
+UAU Ordem Compra,desc_emp,string
+UAU Ordem Compra,origem_ocp,Int64
+UAU Ordem Compra,transfcusto_ocp,Int64
+UAU Ordem Compra,PessoasNome_pes,string
+UAU Ordem Compra,Pessoas1EmpPaga,string
+UAU Ordem Compra,Pessoas2EmpFatura,string
+UAU Ordem Compra,casadecqtde_ocp,Int64
+UAU Ordem Compra,casadecpreco_ocp,Int64
+UAU Ordem Compra,contrato_ocp,Int64
+UAU Ordem Compra,Excluida_Ocp,Int64
+UAU Ordem Compra,Desconto,Float64
+UAU Ordem Compra,TotalLiquido,Float64
+UAU Ordem Compra,OcpAcordoCorp,Int64
+UAU Ordem Compra,numac_ocp,Int64
+UAU Ordem Compra,statusenvio_ocp,Int64
+UAU Ordem Compra,EmpObr,string
+UAU Ordem Compra,Emp-Cot,string
+UAU Ordem Compra,EmprObr-OC,string
+UAU Ordem Compra,EmpOC,string
+UAU Ordem Compra Historico,numproc_hpro,Int64
+UAU Ordem Compra Historico,numparc_hpro,Int64
+UAU Ordem Compra Historico,dtatividade_hpro,datetime64[ns]
+UAU Ordem Compra Historico,Obr,string
+UAU Ordem Compra Historico,usuario_hpro,string
+UAU Ordem Compra Historico,Empr,Int64
+UAU Ordem Compra Historico,nOC,Int64
+UAU Ordem Compra Historico,Preco_Hpro,Float64
+UAU Ordem Compra Historico,CodForn_Ocp,Int64
+UAU Ordem Compra Historico,EmpObr,string
+UAU Ordem Compra Historico,EmprObr-OC,string
+UAU Ordem Compra Historico,EmpOC,string
+UAU Pedido de Compra,quem_ped,string
+UAU Pedido de Compra,dtpedido_ped,datetime64[ns]
+UAU Pedido de Compra,obspedido_ped,string
+UAU Pedido de Compra,tipo_ped,Int64
+UAU Pedido de Compra,descr_ins,string
+UAU Pedido de Compra,desc_cger,string
+UAU Pedido de Compra,desc_emp,string
+UAU Pedido de Compra,descr_obr,string
+UAU Pedido de Compra,uf_obr,string
+UAU Pedido de Compra,EXPIRADO,string
+UAU Pedido de Compra,Empresa_temp,Int64
+UAU Pedido de Compra,Obra_temp,string
+UAU Pedido de Compra,Cotacao_temp,Int64
+UAU Pedido de Compra,Insumo_temp,string
+UAU Pedido de Compra,Categ_temp,string
+UAU Pedido de Compra,Cotada_temp,Int64
+UAU Pedido de Compra,Capins_temp,string
+UAU Pedido de Compra,Qtde_temp,Float64
+UAU Pedido de Compra,QtdeCot_temp,Float64
+UAU Pedido de Compra,Estagio_temp,Int64
+UAU Pedido de Compra,Confirmado_temp,Int64
+UAU Pedido de Compra,QuemConf_temp,string
+UAU Pedido de Compra,Preco_temp,Float64
+UAU Pedido de Compra,DataConf_temp,datetime64[ns]
+UAU Pedido de Compra,OBS_temp,string
+UAU Pedido de Compra,Data_temp,datetime64[ns]
+UAU Pedido de Compra,DtEntrega_temp,datetime64[ns]
+UAU Pedido de Compra,Estoque_temp,Int64
+UAU Pedido de Compra,Unid_temp,string
+UAU Pedido de Compra,ObraFisc_temp,string
+UAU Pedido de Compra,NumPedido_temp,Int64
+UAU Pedido de Compra,PrecoOrc_temp,Float64
+UAU Pedido de Compra,QuemAlt_temp,string
+UAU Pedido de Compra,DataAlt_temp,datetime64[ns]
+UAU Pedido de Compra,ItemPed_Temp,Int64
+UAU Pedido de Compra,DtEntregaOrig_temp,datetime64[ns]
+UAU Pedido de Compra,EstoqueOrig_temp,Int64
+UAU Pedido de Compra,NumContServico_temp,Int64
+UAU Pedido de Compra,UsrDel_temp,string
+UAU Pedido de Compra,DataDel_temp,datetime64[ns]
+UAU Pedido de Compra,Excluido_temp,Int64
+UAU Pedido de Compra,CodDeprec_Temp,string
+UAU Pedido de Compra,Anexos_temp,Int64
+UAU Pedido de Compra,Anexo_temp,Int64
+UAU Pedido de Compra,NumAditivo_Temp,Int64
+UAU Pedido de Compra,Marca_Temp,string
+UAU Pedido de Compra,Especificacao_temp,string
+UAU Pedido de Compra,PercExtrapolado_temp,Float64
+UAU Pedido de Compra,ValorExtrapolado_temp,Float64
+UAU Pedido de Compra,JustificativaExt_temp,string
+UAU Pedido de Compra,CategMovFin_temp,string
+UAU Pedido de Compra,DataAlt,datetime64[ns]
+UAU Pedido de Compra,HoraAlt,string
+UAU Pedido de Compra,VlTotal,Float64
+UAU Pedido de Compra,DtPedido,datetime64[ns]
+UAU Pedido de Compra,HoraPedido,string
+UAU Pedido de Compra,Tipo Pedido,string
+UAU Pedido de Compra,EmpObr,string
+UAU Pedido de Compra,EmpCot,string
+UAU Performace Suprimentos,Empresa,Int64
+UAU Performace Suprimentos,DescEmpresa,string
+UAU Performace Suprimentos,Cotacao,Int64
+UAU Performace Suprimentos,Insumo,string
+UAU Performace Suprimentos,DescInsumo,string
+UAU Performace Suprimentos,Unidade,string
+UAU Performace Suprimentos,Qtde,Float64
+UAU Performace Suprimentos,PrecoUnit,Float64
+UAU Performace Suprimentos,TotalItem,Float64
+UAU Performace Suprimentos,ValorFechado,Float64
+UAU Performace Suprimentos,numero_sml,Int64
+UAU Performace Suprimentos,ValorMelhor,Float64
+UAU Performace Suprimentos,DataCotacao,datetime64[ns]
+UAU Performace Suprimentos,Marca,string
+UAU Performace Suprimentos,CodForn,Int64
+UAU Performace Suprimentos,DescForn,string
+UAU Performace Suprimentos,ValorDesconto,Float64
+UAU Performace Suprimentos,DescontoPorc,Float64
+UAU Performace Suprimentos,EmpCot,string
+UAU Performace Suprimentos,TipoData,Int64
+UAU Performace Suprimentos (macro),Empresa,Int64
+UAU Performace Suprimentos (macro),DescEmpresa,string
+UAU Performace Suprimentos (macro),Cotacao,Int64
+UAU Performace Suprimentos (macro),ValorFechado,Float64
+UAU Performace Suprimentos (macro),numero_sml,Int64
+UAU Performace Suprimentos (macro),ValorMelhor,Float64
+UAU Performace Suprimentos (macro),DataCotacao,datetime64[ns]
+UAU Performace Suprimentos (macro),CodForn,Int64
+UAU Performace Suprimentos (macro),DescForn,string
+UAU Performace Suprimentos (macro),ValorDesconto,Float64
+UAU Performace Suprimentos (macro),DescontoPorc,Float64
+UAU Performace Suprimentos (macro),EmpCot,string
+UAU Performace Suprimentos (macro),TipoData,Int64
+UAU Performace Suprimentos (macro),EmpCot - Fornecedor,string
+UAU Req-bdOrdem Compra (2),total,Float64
+UAU Req-bdOrdem Compra (2),empresa_ocp,Int64
+UAU Req-bdOrdem Compra (2),codforn_ocp,Int64
+UAU Req-bdOrdem Compra (2),anexos_ocp,Int64
+UAU Req-bdOrdem Compra (2),usuario_ocp,string
+UAU Req-bdOrdem Compra (2),numerooc_ocp,Int64
+UAU Req-bdOrdem Compra (2),EmpObr,string
+UAU Req-bdOrdem Compra (2),datager_ocp,datetime64[ns]
+UAU Req-bdOrdem Compra (2),obra_ocp,string
+UAU Req-bdOrdem Compra (2),tipo_ocp,Int64
+UAU Req-bdOrdem Compra (2),emppaga_ocp,Int64
+UAU Req-bdOrdem Compra (2),empfatura_ocp,Int64
+UAU Req-bdOrdem Compra (2),numcot_ocp,Int64
+UAU Req-bdOrdem Compra (2),desc_emp,string
+UAU Req-bdOrdem Compra (2),origem_ocp,Int64
+UAU Req-bdOrdem Compra (2),transfcusto_ocp,Int64
+UAU Req-bdOrdem Compra (2),PessoasNome_pes,string
+UAU Req-bdOrdem Compra (2),Pessoas1EmpPaga,string
+UAU Req-bdOrdem Compra (2),Pessoas2EmpFatura,string
+UAU Req-bdOrdem Compra (2),casadecqtde_ocp,Int64
+UAU Req-bdOrdem Compra (2),casadecpreco_ocp,Int64
+UAU Req-bdOrdem Compra (2),contrato_ocp,Int64
+UAU Req-bdOrdem Compra (2),Excluida_Ocp,Int64
+UAU Req-bdOrdem Compra (2),Desconto,Float64
+UAU Req-bdOrdem Compra (2),TotalLiquido,Float64
+UAU Req-bdOrdem Compra (2),OcpAcordoCorp,Int64
+UAU Req-bdOrdem Compra (2),numac_ocp,Int64
+UAU Req-bdOrdem Compra (2),statusenvio_ocp,Int64
+UAU Req-bdOrdem Compra (2),Emp-Cot,string
+UAU Req-bdOrdem Compra (2),EmprObr-OC,string
+UAU Req-bdOrdem Compra (2),EmpOC,string
+UAU Requisição de Compra,Empresa_ReqComp,Int64
+UAU Requisição de Compra,Obra_ReqComp,string
+UAU Requisição de Compra,NumPed_ReqComp,Int64
+UAU Requisição de Compra,Num_ReqComp,Int64
+UAU Requisição de Compra,CodForn_ReqComp,Int64
+UAU Requisição de Compra,Estagio_ReqComp,Int64
+UAU Requisição de Compra,NumOC_ReqComp,Int64
+UAU Requisição de Compra,NumAc_ReqComp,Int64
+UAU Requisição de Compra,NumPedFrete_ReqComp,Int64
+UAU Requisição de Compra,Num_ac,Int64
+UAU Requisição de Compra,CodForn_ac,Int64
+UAU Requisição de Compra,DataInicio_ac,datetime64[ns]
+UAU Requisição de Compra,DataTermino_ac,datetime64[ns]
+UAU Requisição de Compra,UFEntrega_ac,string
+UAU Requisição de Compra,ValorMinPedCIF_ac,Float64
+UAU Requisição de Compra,DiasPagamento_ac,Int64
+UAU Requisição de Compra,RegraDiasPgto_ac,Int64
+UAU Requisição de Compra,Contato_ac,string
+UAU Requisição de Compra,Email_ac,string
+UAU Requisição de Compra,AtInat_ac,Int64
+UAU Requisição de Compra,UsrCad_ac,string
+UAU Requisição de Compra,DataCad_ac,datetime64[ns]
+UAU Requisição de Compra,Confirmado_ac,Int64
+UAU Requisição de Compra,CodServFrete_ac,string
+UAU Requisição de Compra,Anexos_ac,Int64
+UAU Requisição de Compra,ControlaEst_ac,Int64
+UAU Requisição de Compra,AcompEntrega_ac,Int64
+UAU Requisição de Compra,ValorMinPedFOB_ac,Float64
+UAU Requisição de Compra,Objeto_ac,string
+UAU Requisição de Compra,EmpObr,string
+UAU Requisição de Compra,EmpObrOC,string
+UAU Requisição de Compra,Confirmada_ReqComp,Int64
+UAU Requisição de Compra (OC),Empresa_ReqComp,Int64
+UAU Requisição de Compra (OC),Obra_ReqComp,string
+UAU Requisição de Compra (OC),NumPed_ReqComp,Int64
+UAU Requisição de Compra (OC),Num_ReqComp,Int64
+UAU Requisição de Compra (OC),CodForn_ReqComp,Int64
+UAU Requisição de Compra (OC),Estagio_ReqComp,Int64
+UAU Requisição de Compra (OC),NumOC_ReqComp,Int64
+UAU Requisição de Compra (OC),NumAc_ReqComp,Int64
+UAU Requisição de Compra (OC),NumPedFrete_ReqComp,Int64
+UAU Requisição de Compra (OC),Num_ac,Int64
+UAU Requisição de Compra (OC),CodForn_ac,Int64
+UAU Requisição de Compra (OC),DataInicio_ac,datetime64[ns]
+UAU Requisição de Compra (OC),DataTermino_ac,datetime64[ns]
+UAU Requisição de Compra (OC),UFEntrega_ac,string
+UAU Requisição de Compra (OC),ValorMinPedCIF_ac,Float64
+UAU Requisição de Compra (OC),DiasPagamento_ac,Int64
+UAU Requisição de Compra (OC),RegraDiasPgto_ac,Int64
+UAU Requisição de Compra (OC),Contato_ac,string
+UAU Requisição de Compra (OC),Email_ac,string
+UAU Requisição de Compra (OC),AtInat_ac,Int64
+UAU Requisição de Compra (OC),UsrCad_ac,string
+UAU Requisição de Compra (OC),DataCad_ac,datetime64[ns]
+UAU Requisição de Compra (OC),Confirmado_ac,Int64
+UAU Requisição de Compra (OC),CodServFrete_ac,string
+UAU Requisição de Compra (OC),Anexos_ac,Int64
+UAU Requisição de Compra (OC),ControlaEst_ac,Int64
+UAU Requisição de Compra (OC),AcompEntrega_ac,Int64
+UAU Requisição de Compra (OC),ValorMinPedFOB_ac,Float64
+UAU Requisição de Compra (OC),Objeto_ac,string
+UAU Requisição de Compra (OC),EmpObr,string
+UAU Requisição de Compra (OC),EmpObrOC,string
+UAU Requisição de Compra (OC),total,Float64
+UAU Requisição de Compra (OC),codforn_ocp,Int64
+UAU Requisição de Compra (OC),usuario_ocp,string
+UAU Requisição de Compra (OC),datager_ocp,datetime64[ns]
+UAU Requisição de Compra (OC),tipo_ocp,Int64
+UAU Requisição de Compra (OC),PessoasNome_pes,string
+UAU Requisição de Compra (OC),Desconto,Float64
+UAU Requisição de Compra (OC),TotalLiquido,Float64
+UAU Requisição de Compra (OC),OcpAcordoCorp,Int64
+UAU Requisição de Compra (OC),Confirmada_ReqComp,Int64
+UAU Resumo Orçamento,Empresa_pla,Int64
+UAU Resumo Orçamento,Desc_Emp,string
+UAU Resumo Orçamento,Anexos_pla,Int64
+UAU Resumo Orçamento,Obra_pla,string
+UAU Resumo Orçamento,Descr_Obr,string
+UAU Resumo Orçamento,Serv_pla,string
+UAU Resumo Orçamento,Descr_pla,string
+UAU Resumo Orçamento,DescrDetalhe_pla,string
+UAU Resumo Orçamento,Unid_pla,string
+UAU Resumo Orçamento,Custo_pla,string
+UAU Resumo Orçamento,qdade_pla,Float64
+UAU Resumo Orçamento,Dini_pla,datetime64[ns]
+UAU Resumo Orçamento,Dfim_pla,datetime64[ns]
+UAU Resumo Orçamento,NumOrca_pla,Int64
+UAU Resumo Orçamento,CodCateg_Pla,string
+UAU Resumo Orçamento,Bdi_pla,Float64
+UAU Resumo Orçamento,CustoPorcent_pla,Float64
+UAU Resumo Orçamento,CustoUnitMao_pla,Float64
+UAU Resumo Orçamento,CustoUnitMat_pla,Float64
+UAU Resumo Orçamento,CustoUnit_pla,Float64
+UAU Resumo Orçamento,CustoTot_pla,Float64
+UAU Resumo Orçamento,CustoUnitEquip_pla,Float64
+UAU Resumo Orçamento,CustoUnitServ_pla,Float64
+UAU Resumo Orçamento,ProdEq_pla,Float64
+UAU Resumo Orçamento,CustoUnitTrans_pla,Float64
+UAU Resumo Orçamento,CivilPes_pla,Int64
+UAU Resumo Orçamento,Item_pla,string
+UAU Resumo Orçamento,CustoTotMao,Float64
+UAU Resumo Orçamento,CustoTotEquip,Float64
+UAU Resumo Orçamento,CustoTotMat,Float64
+UAU Resumo Orçamento,CustoTotServ,Float64
+UAU Resumo Orçamento,CustoTotTrans,Float64
+UAU Resumo Orçamento,Orçamento,Int64
+UAU Resumo Orçamento,Descrição Orçamento,string
+UAU Resumo Orçamento,EmpObr,string
+UAU Resumo Orçamento,EmpObrOrc,string
+UAU Resumo Orçamento,CodOrc-DescOrc,string
+UAU Resumo Orçamento,Subtotal,decimal.Decimal
+UAU Seg GrupProg,Grp_gp,string
+UAU Seg GrupProg,Prog_gp,string
+UAU Seg GrupProg,Atrib_gp,Int64
+UAU Seg GrupProg,UsrCad_gp,string
+UAU Seg GrupProg,DataCad_gp,datetime64[ns]
+UAU Seg Programas,Cod_prg,string
+UAU Seg Programas,Tit_prg,string
+UAU Seg Programas,Seq_prg,string
+UAU Seg Programas,Status_prg,Int64
+UAU Seg Programas,Anexos_prg,Int64
+UAU Seg Programas,Obs_prg,string
+UAU Seg Programas,AtInat_prg,Int64
+UAU Seg UserProg,Grp_gp,string
+UAU Seg UserProg,Prog_gp,string
+UAU Seg UserProg,Atrib_gp,Int64
+UAU Seg UserProg,UsrCad_gp,string
+UAU Seg UserProg,DataCad_gp,datetime64[ns]
+UAU Seg UserProg,Login_usr,string
+UAU Seg UserProg,Nome_usr,string
+UAU Seg UserProg,Status_usr,Int64
+UAU Seg UserProg,Grupo_usr,string
+UAU Seg UserProg,CodCompradorNet_usr,string
+UAU Seg UserProg,CodTelefoneNet_usr,string
+UAU Seg UserProg,CodLoginExpNet_usr,string
+UAU Seg UserProg,Anexos_usr,Int64
+UAU Seg UserProg,Email_usr,string
+UAU Seg UserProg,CodPes_usr,Int64
+UAU Seg UserProg,RepresentaGrupo_usr,Int64
+UAU Seg UserProg,LoginSiteuau_usr,string
+UAU Seg UserProg,DataCad_usr,datetime64[ns]
+UAU Seg UserProg,DataAlt_usr,datetime64[ns]
+UAU Seg UserProg,UsrCad_Usr,string
+UAU Seg UserProg,UsrAlt_Usr,string
+UAU Seg UserProg,UsarSeguranca_Usr,bool
+UAU Seg UserProg,RepresentaDepartamento_usr,bool
+UAU Seg UserProg,DataloginUau_usr,datetime64[ns]
+UAU Seg UserProg,UsuarioAD_usr,string
+UAU Seg Usuários,Login_usr,string
+UAU Seg Usuários,Nome_usr,string
+UAU Seg Usuários,Status_usr,Int64
+UAU Seg Usuários,Grupo_usr,string
+UAU Seg Usuários,CodCompradorNet_usr,string
+UAU Seg Usuários,CodTelefoneNet_usr,string
+UAU Seg Usuários,CodLoginExpNet_usr,string
+UAU Seg Usuários,Anexos_usr,Int64
+UAU Seg Usuários,Email_usr,string
+UAU Seg Usuários,CodPes_usr,Int64
+UAU Seg Usuários,RepresentaGrupo_usr,Int64
+UAU Seg Usuários,LoginSiteuau_usr,string
+UAU Seg Usuários,DataCad_usr,datetime64[ns]
+UAU Seg Usuários,DataAlt_usr,datetime64[ns]
+UAU Seg Usuários,UsrCad_Usr,string
+UAU Seg Usuários,UsrAlt_Usr,string
+UAU Seg Usuários,UsarSeguranca_Usr,bool
+UAU Seg Usuários,RepresentaDepartamento_usr,bool
+UAU Seg Usuários,DataloginUau_usr,datetime64[ns]
+UAU Seg Usuários,UsuarioAD_usr,string
+UAU Simulação,numero_sml,Int64
+UAU Simulação,Empresa,Int64
+UAU Simulação,DescEmpresa,string
+UAU Simulação,Cotacao,Int64
+UAU Simulação,Insumo,string
+UAU Simulação,DescInsumo,string
+UAU Simulação,Unidade,string
+UAU Simulação,Qtde,Float64
+UAU Simulação,PrecoUnit,Float64
+UAU Simulação,TotalItem,Float64
+UAU Simulação,ValorFechado,Float64
+UAU Simulação,ValorMelhor,Float64
+UAU Simulação,DataCotacao,datetime64[ns]
+UAU Simulação,Marca,string
+UAU Simulação,CodForn,Int64
+UAU Simulação,DescForn,string
+UAU Simulação,ValorDesconto,Float64
+UAU Simulação,DescontoPorc,Float64
+UAU Simulação,EmpCot,string
+UAU Simulação,TipoData,Int64
+UAU VwDesembolso,Empresa_Des,Int64
+UAU VwDesembolso,DescEmp_Des,string
+UAU VwDesembolso,Obra_Des,string
+UAU VwDesembolso,DescObra_Des,string
+UAU VwDesembolso,NumProc_Des,Int64
+UAU VwDesembolso,NumParc_Des,Int64
+UAU VwDesembolso,ItemProc_Des,string
+UAU VwDesembolso,DescItemProc_Des,string
+UAU VwDesembolso,DtPgto_Des,datetime64[ns]
+UAU VwDesembolso,TotalBruto_Des,Float64
+UAU VwDesembolso,Acrescimo_Des,Float64
+UAU VwDesembolso,Desconto_Des,Float64
+UAU VwDesembolso,TotalLiq_Des,Float64
+UAU VwDesembolso,Porc_Des,Float64
+UAU VwDesembolso,ContratoPl_Des,Int64
+UAU VwDesembolso,DescContPl_Des,string
+UAU VwDesembolso,ProdutoPl_Des,Int64
+UAU VwDesembolso,DescProdPl_Des,string
+UAU VwDesembolso,ItemPl_Des,string
+UAU VwDesembolso,CompPl_Des,string
+UAU VwDesembolso,DescCompPl_Des,string
+UAU VwDesembolso,PlMes_Des,datetime64[ns]
+UAU VwDesembolso,InsumoPl_Des,string
+UAU VwDesembolso,DescInsPl_Des,string
+UAU VwDesembolso,DtGeracao_Des,datetime64[ns]
+UAU VwDesembolso,IntExt_Des,string
+UAU VwDesembolso,CodForn_Des,Int64
+UAU VwDesembolso,DescForn_Des,string
+UAU VwDesembolso,TipoProc_Des,Int64
+UAU VwDesembolso,NumCot_Des,Int64
+UAU VwDesembolso,DescCotacao_Des,string
+UAU VwDesembolso,ContratoServ_Des,Int64
+UAU VwDesembolso,NumOc_Des,Int64
+UAU VwDesembolso,CodMedicao_Des,Int64
+UAU VwDesembolso,QtdeItem_Des,Float64
+UAU VwDesembolso,ValorUnitItem_Des,Float64
+UAU VwDesembolso,VlDocFisc_Des,Float64
+UAU VwDesembolso,Cap_Des,string
+UAU VwDesembolso,DescCap_Des,string
+UAU VwDesembolso,NominalProc_Des,string
+UAU VwDesembolso,NumCheque_Des,string
+UAU VwDesembolso,Anexos_Des,Int64
+UAU VwDesembolso,StatusParc_Des,Int64
+UAU VwDesembolso,CatIns_Des,string
+UAU VwDesembolso,DescCatIns_Des,string
+UAU VwDesembolso,G1G2_Des,Int64
+UAU VwDesembolso,TipoIns_Des,Int64
+UAU VwDesembolso,CatComp_Des,string
+UAU VwDesembolso,DescCatComp_Des,string
+UAU VwDesembolso,UnidItemProc_Des,string
+UAU VwDesembolso,Banco_Des,Int64
+UAU VwDesembolso,ContaCorr_Des,string
+UAU VwDesembolso,DescContaCorr_Des,string
+UAU VwDesembolso,DocFiscal_Des,string
+UAU VwDesembolso,HistContab_Des,string
+UAU VwDesembolso,HistContabPago_Des,string
+UAU VwDesembolso,ObsPag_Des,string
+UAU VwDesembolso,NumSTPis_Des,Int64
+UAU VwDesembolso,PorcPis_Des,Float64
+UAU VwDesembolso,NumSTCofins_Des,Int64
+UAU VwDesembolso,PorcCofins_Des,Float64
+UAU VwDesembolso,TipoImposto_ProcPar,Int64
+UAU VwDesembolso,Aliquota_ProcPar,Float64
+UAU VwDesembolso,ReterImposto_ProcPar,bool
+UAU VwDesembolso,EmpObr,string
+UAU VwDesembolsoPrj,Empresa_Prj,Int64
+UAU VwDesembolsoPrj,DescEmp_Prj,string
+UAU VwDesembolsoPrj,Obra_Prj,string
+UAU VwDesembolsoPrj,DescObra_Prj,string
+UAU VwDesembolsoPrj,ContratoPl_Prj,Int64
+UAU VwDesembolsoPrj,DescContPl_Prj,string
+UAU VwDesembolsoPrj,ProdutoPl_Prj,Int64
+UAU VwDesembolsoPrj,DescProdPl_Prj,string
+UAU VwDesembolsoPrj,ItemPl_Prj,string
+UAU VwDesembolsoPrj,CompPl_Prj,string
+UAU VwDesembolsoPrj,DescCompPl_Prj,string
+UAU VwDesembolsoPrj,InsumoPl_Prj,string
+UAU VwDesembolsoPrj,UnidInsPL_Prj,string
+UAU VwDesembolsoPrj,DescInsPl_Prj,string
+UAU VwDesembolsoPrj,PlMes_Prj,datetime64[ns]
+UAU VwDesembolsoPrj,Total_Prj,Float64
+UAU VwDesembolsoPrj,DtPgto_Prj,datetime64[ns]
+UAU VwDesembolsoPrj,IntExt_Prj,string
+UAU VwDesembolsoPrj,CatIns_Prj,string
+UAU VwDesembolsoPrj,DescCatIns_Prj,string
+UAU VwDesembolsoPrj,TipoIns_Prj,Int64
+UAU VwDesembolsoPrj,G1G2_Prj,Int64
+UAU VwDesembolsoPrj,EncargoIns_Prj,Int64
+UAU VwDesembolsoPrj,PgtoEncIns_prj,Int64
+UAU VwDesembolsoPrj,CodForn_Prj,Int64
+UAU VwDesembolsoPrj,DescForn_Prj,string
+UAU VwDesembolsoPrj,EmpObr,string
+dCalendário,DATA,datetime64[ns]
+dCalendário,ANO,Int64
+dCalendário,MES,Int64
+dCalendário,DT REFERENCIA,datetime64[ns]
+dCalendário,TRIMESTRE,Int64
+dCalendário,SEMANA DO ANO,Int64
+dCalendário,SEMANA DO MES,Int64
+dCalendário,DIA DO MES,Int64
+dCalendário,DIA DA SEMANA,Int64
+dCalendário,DIA DO ANO,Int64
+dCalendário,NOME DO DIA,string
+dCalendário,NOME MES,string
+dCalendário,WEEK OF YEAR,string
+dCalendário,NOME TRIMESTRE,string
+dCalendário,NOME MES ABREV,string
+dCalendário,NOME MES/ANO ABREV,string
+dCalendário,MES/ANO,string
+dCalendário,NOME DO DIA ABREV,string
+dCalendário,SEMESTRE,Float64
+dCalendário,DIA ÚTIL,Float64
+dCalendário,NOME SEMESTRE,string
+dCalendário,NAME QUARTER,string
+dCalendário,MONTH NAME,string
+dCalendário,MONTH NAME ABREV,string
+dCalendário,ANO (YY),string
+dCalendário,MONTH/YEAR,string
+dCalendário,HOJE,Int64
+dCalendário,MES ATUAL,Int64
+dCalendário,SEMANA ATUAL,Int64
+dCalendário,DIA D,Int64
+dCalendário,DIA D-1,Int64
+dCalendário,DT ATUALIZAÇÃO,datetime64[ns]
+dCalendário,TRIMESTRE / ANO,string

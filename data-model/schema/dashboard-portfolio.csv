@@ -1,0 +1,261 @@
+TableName,ColumnName,PandasDataType
+A V A,Empreendimento,string
+A V A,IDC,decimal.Decimal
+A V A,IDP,decimal.Decimal
+A V A,ICP,decimal.Decimal
+A V A,Tendência Atraso/Antecipação,Int64
+A V A,Desvio (Tendecia por Baseline 0),string
+A V A,Saldo a contratar,decimal.Decimal
+A V A,Garantia (Gestão Risco Realista do Escopo),decimal.Decimal
+A V A,Garantia (Gestão Risco Pessimista do Escopo),decimal.Decimal
+A V A,% Previsão de Evolução Física AcumuladaBaseline 0,Float64
+A V A,% Previsão de Evolução Física  AcumuladaBaseline Atual,Float64
+A V A,% Acompanhamento da Evolução Física Acumulada,Float64
+A V A,% Apuração da Evolução Financeira Acumulada(por Orçado B0),Float64
+A V A,Conclusõese Recomendações parte analítica/parecer do Coordenador do Empreendimento,string
+DateTableTemplate_182fc2d8-b3e2-48be-b723-6fa719341ab3,Ano,object
+DateTableTemplate_182fc2d8-b3e2-48be-b723-6fa719341ab3,MonthNo,object
+DateTableTemplate_182fc2d8-b3e2-48be-b723-6fa719341ab3,Mês,object
+DateTableTemplate_182fc2d8-b3e2-48be-b723-6fa719341ab3,QuarterNo,object
+DateTableTemplate_182fc2d8-b3e2-48be-b723-6fa719341ab3,Trimestre,object
+DateTableTemplate_182fc2d8-b3e2-48be-b723-6fa719341ab3,Dia,object
+Empreendimento,Gerente de Projeto,string
+Empreendimento,Fundo,string
+Empreendimento,CÓDIGO INTERNO,string
+Empreendimento,Empresa UAU,string
+Empreendimento,Obra UAU,string
+Empreendimento,Tipo Controle,string
+Empreendimento,Data da Abertura,datetime64[ns]
+Empreendimento,Ano de Integralização,Int64
+Empreendimento,Data de Integralização,datetime64[ns]
+Empreendimento,Razão Social do Empreendimento,string
+Empreendimento,NOME FANTASIA,string
+Empreendimento,CNPJ,string
+Empreendimento,Sócio do Empreendimento,string
+Empreendimento,Tipo de Empresa,string
+Empreendimento,Empreendimento,string
+Empreendimento,Natureza do Empreendiemnto,string
+Empreendimento,Público Alvo,string
+Empreendimento,ESTADO,string
+Empreendimento,CIDADE,string
+Empreendimento,STATUS OPERACIONAL,string
+Empreendimento,DATA DE LANÇAMENTO,datetime64[ns]
+Empreendimento,Pacote  da Receita,string
+Financeiro,Empreendimento,string
+Financeiro,Atributo,datetime64[ns]
+Financeiro,Custo Mensal Previsto B0,decimal.Decimal
+Financeiro,Saldo Mensal Reprogramado,decimal.Decimal
+Financeiro,Custo Real Mensal,decimal.Decimal
+Financeiro,Custo DataBase Original B0,decimal.Decimal
+Financeiro,Custo Reprogramada B0,decimal.Decimal
+Financeiro,Tendência de Termino B0,decimal.Decimal
+Financeiro,Tendência de Termino B1,decimal.Decimal
+Financeiro,Custo Real Acumulado,decimal.Decimal
+Financeiro,Custo Mensal Previsto B1,decimal.Decimal
+Financeiro,Custo DataBase Reprogramada B1,decimal.Decimal
+Financeiro,Desvio Acumulado - Linha de Base,decimal.Decimal
+Fisico,Empreendimento,string
+Fisico,Atributo,datetime64[ns]
+Fisico,Avanço Mensal Previsto B0,Float64
+Fisico,Avança Real Mensal,Float64
+Fisico,Linha de Base Original B0,Float64
+Fisico,Tendência de Termino B0,Float64
+Fisico,Tendência de Termino B1,Float64
+Fisico,Avanço Real Acumulado,Float64
+Fisico,Desvio Acumulado - Linha de Base,Float64
+Fisico,Avanço Mensal Reprogramado,Float64
+Fisico,Avanço Acumulado Reprogramado,Float64
+Links,Pasta,string
+Links,Link,string
+LocalDateTable_05b0dd9b-fd02-4a06-8be7-1c39756bdb38,Ano,object
+LocalDateTable_05b0dd9b-fd02-4a06-8be7-1c39756bdb38,MonthNo,object
+LocalDateTable_05b0dd9b-fd02-4a06-8be7-1c39756bdb38,Mês,object
+LocalDateTable_05b0dd9b-fd02-4a06-8be7-1c39756bdb38,QuarterNo,object
+LocalDateTable_05b0dd9b-fd02-4a06-8be7-1c39756bdb38,Trimestre,object
+LocalDateTable_05b0dd9b-fd02-4a06-8be7-1c39756bdb38,Dia,object
+LocalDateTable_0bc55665-99c3-4560-8ce3-e74212f569fb,Ano,object
+LocalDateTable_0bc55665-99c3-4560-8ce3-e74212f569fb,MonthNo,object
+LocalDateTable_0bc55665-99c3-4560-8ce3-e74212f569fb,Mês,object
+LocalDateTable_0bc55665-99c3-4560-8ce3-e74212f569fb,QuarterNo,object
+LocalDateTable_0bc55665-99c3-4560-8ce3-e74212f569fb,Trimestre,object
+LocalDateTable_0bc55665-99c3-4560-8ce3-e74212f569fb,Dia,object
+LocalDateTable_193cda54-aba0-4f9c-b8e8-10f16e8f0d23,Ano,object
+LocalDateTable_193cda54-aba0-4f9c-b8e8-10f16e8f0d23,MonthNo,object
+LocalDateTable_193cda54-aba0-4f9c-b8e8-10f16e8f0d23,Mês,object
+LocalDateTable_193cda54-aba0-4f9c-b8e8-10f16e8f0d23,QuarterNo,object
+LocalDateTable_193cda54-aba0-4f9c-b8e8-10f16e8f0d23,Trimestre,object
+LocalDateTable_193cda54-aba0-4f9c-b8e8-10f16e8f0d23,Dia,object
+LocalDateTable_295420c6-c193-4b8e-b46c-2c72558b149f,Ano,object
+LocalDateTable_295420c6-c193-4b8e-b46c-2c72558b149f,MonthNo,object
+LocalDateTable_295420c6-c193-4b8e-b46c-2c72558b149f,Mês,object
+LocalDateTable_295420c6-c193-4b8e-b46c-2c72558b149f,QuarterNo,object
+LocalDateTable_295420c6-c193-4b8e-b46c-2c72558b149f,Trimestre,object
+LocalDateTable_295420c6-c193-4b8e-b46c-2c72558b149f,Dia,object
+LocalDateTable_3087ccb9-8b58-43f8-81cf-27ccfe3d1924,Ano,object
+LocalDateTable_3087ccb9-8b58-43f8-81cf-27ccfe3d1924,MonthNo,object
+LocalDateTable_3087ccb9-8b58-43f8-81cf-27ccfe3d1924,Mês,object
+LocalDateTable_3087ccb9-8b58-43f8-81cf-27ccfe3d1924,QuarterNo,object
+LocalDateTable_3087ccb9-8b58-43f8-81cf-27ccfe3d1924,Trimestre,object
+LocalDateTable_3087ccb9-8b58-43f8-81cf-27ccfe3d1924,Dia,object
+LocalDateTable_4cfac7b6-b5d5-46a6-b89a-315630e91fbe,Ano,object
+LocalDateTable_4cfac7b6-b5d5-46a6-b89a-315630e91fbe,MonthNo,object
+LocalDateTable_4cfac7b6-b5d5-46a6-b89a-315630e91fbe,Mês,object
+LocalDateTable_4cfac7b6-b5d5-46a6-b89a-315630e91fbe,QuarterNo,object
+LocalDateTable_4cfac7b6-b5d5-46a6-b89a-315630e91fbe,Trimestre,object
+LocalDateTable_4cfac7b6-b5d5-46a6-b89a-315630e91fbe,Dia,object
+LocalDateTable_5898a7ee-9879-4553-b802-41964257ccad,Ano,object
+LocalDateTable_5898a7ee-9879-4553-b802-41964257ccad,MonthNo,object
+LocalDateTable_5898a7ee-9879-4553-b802-41964257ccad,Mês,object
+LocalDateTable_5898a7ee-9879-4553-b802-41964257ccad,QuarterNo,object
+LocalDateTable_5898a7ee-9879-4553-b802-41964257ccad,Trimestre,object
+LocalDateTable_5898a7ee-9879-4553-b802-41964257ccad,Dia,object
+LocalDateTable_671a0a25-8893-456e-87b5-bf70504554bb,Ano,object
+LocalDateTable_671a0a25-8893-456e-87b5-bf70504554bb,MonthNo,object
+LocalDateTable_671a0a25-8893-456e-87b5-bf70504554bb,Mês,object
+LocalDateTable_671a0a25-8893-456e-87b5-bf70504554bb,QuarterNo,object
+LocalDateTable_671a0a25-8893-456e-87b5-bf70504554bb,Trimestre,object
+LocalDateTable_671a0a25-8893-456e-87b5-bf70504554bb,Dia,object
+LocalDateTable_80d0899c-9440-4568-b951-b09913b93688,Ano,object
+LocalDateTable_80d0899c-9440-4568-b951-b09913b93688,MonthNo,object
+LocalDateTable_80d0899c-9440-4568-b951-b09913b93688,Mês,object
+LocalDateTable_80d0899c-9440-4568-b951-b09913b93688,QuarterNo,object
+LocalDateTable_80d0899c-9440-4568-b951-b09913b93688,Trimestre,object
+LocalDateTable_80d0899c-9440-4568-b951-b09913b93688,Dia,object
+LocalDateTable_9e9b1fec-d959-4e5c-a786-4f06603fc062,Ano,object
+LocalDateTable_9e9b1fec-d959-4e5c-a786-4f06603fc062,MonthNo,object
+LocalDateTable_9e9b1fec-d959-4e5c-a786-4f06603fc062,Mês,object
+LocalDateTable_9e9b1fec-d959-4e5c-a786-4f06603fc062,QuarterNo,object
+LocalDateTable_9e9b1fec-d959-4e5c-a786-4f06603fc062,Trimestre,object
+LocalDateTable_9e9b1fec-d959-4e5c-a786-4f06603fc062,Dia,object
+LocalDateTable_b131e7c5-28ec-4777-943c-0938eb26734e,Ano,object
+LocalDateTable_b131e7c5-28ec-4777-943c-0938eb26734e,MonthNo,object
+LocalDateTable_b131e7c5-28ec-4777-943c-0938eb26734e,Mês,object
+LocalDateTable_b131e7c5-28ec-4777-943c-0938eb26734e,QuarterNo,object
+LocalDateTable_b131e7c5-28ec-4777-943c-0938eb26734e,Trimestre,object
+LocalDateTable_b131e7c5-28ec-4777-943c-0938eb26734e,Dia,object
+LocalDateTable_b3c2a0ca-4aa8-4dc8-afa6-cddd5726770a,Ano,object
+LocalDateTable_b3c2a0ca-4aa8-4dc8-afa6-cddd5726770a,MonthNo,object
+LocalDateTable_b3c2a0ca-4aa8-4dc8-afa6-cddd5726770a,Mês,object
+LocalDateTable_b3c2a0ca-4aa8-4dc8-afa6-cddd5726770a,QuarterNo,object
+LocalDateTable_b3c2a0ca-4aa8-4dc8-afa6-cddd5726770a,Trimestre,object
+LocalDateTable_b3c2a0ca-4aa8-4dc8-afa6-cddd5726770a,Dia,object
+LocalDateTable_de9d5e7b-3add-4b0f-a0ed-da6d8ada6cb4,Ano,object
+LocalDateTable_de9d5e7b-3add-4b0f-a0ed-da6d8ada6cb4,MonthNo,object
+LocalDateTable_de9d5e7b-3add-4b0f-a0ed-da6d8ada6cb4,Mês,object
+LocalDateTable_de9d5e7b-3add-4b0f-a0ed-da6d8ada6cb4,QuarterNo,object
+LocalDateTable_de9d5e7b-3add-4b0f-a0ed-da6d8ada6cb4,Trimestre,object
+LocalDateTable_de9d5e7b-3add-4b0f-a0ed-da6d8ada6cb4,Dia,object
+LocalDateTable_fe4b8bad-3384-4516-8404-31cc14421b6e,Ano,object
+LocalDateTable_fe4b8bad-3384-4516-8404-31cc14421b6e,MonthNo,object
+LocalDateTable_fe4b8bad-3384-4516-8404-31cc14421b6e,Mês,object
+LocalDateTable_fe4b8bad-3384-4516-8404-31cc14421b6e,QuarterNo,object
+LocalDateTable_fe4b8bad-3384-4516-8404-31cc14421b6e,Trimestre,object
+LocalDateTable_fe4b8bad-3384-4516-8404-31cc14421b6e,Dia,object
+Mapeamento de Riscos e Problema,Empreendimento,string
+Mapeamento de Riscos e Problema,Mês,datetime64[ns]
+Mapeamento de Riscos e Problema,Descrição,string
+Mapeamento de Riscos e Problema,Consequências,string
+Mapeamento de Riscos e Problema,Acompanhamento,string
+Mapeamento de Riscos e Problema,Impacto na Tripla Restrição da Gestão do Projeto,string
+Mapeamento de Riscos e Problema,Status,string
+Mapeamento de Riscos e Problema,Dt Resolvida,datetime64[ns]
+Mapeamento de Riscos e Problema,Lead.Time,Int64
+Planilha1 (2),Tipo,string
+Planilha1 (2),subTipo,string
+Planilha1 (2),Empreendimento,string
+Planilha1 (2),Cidade,string
+Planilha1 (2),Estado,string
+Planilha1 (2),Tipologia,string
+Planilha1 (2),Qtd Und,Int64
+Planilha1 (2),Data Início,datetime64[ns]
+Planilha1 (2),Data Termino B0,datetime64[ns]
+Planilha1 (2),Data Tendência Termino,datetime64[ns]
+Planilha1 (2),A.L.V.,decimal.Decimal
+Planilha1 (2),R$ Investimento,decimal.Decimal
+Planilha1 (2),% PL ,Float64
+Planilha1 (2),VGV,decimal.Decimal
+Planilha1 (2),IDC B0,decimal.Decimal
+Planilha1 (2),IDP B0,decimal.Decimal
+Planilha1 (2),ICP B0,decimal.Decimal
+Planilha1 (2),R$ Baseline 0,decimal.Decimal
+Planilha1 (2),R$ Contratado,decimal.Decimal
+Planilha1 (2),% Contratado,Float64
+Planilha1 (2),R$ Pago no Mês,decimal.Decimal
+Planilha1 (2),R$ Pago Acumulado,decimal.Decimal
+Planilha1 (2),R$ Tendência Custo,decimal.Decimal
+Planilha1 (2),% Avanço Financeiro,Float64
+Planilha1 (2),% Desvio de custo,Float64
+Planilha1 (2),Desvio (Tendecia por Baseline 0) (+ ou -),string
+Planilha1 (2),R$ Saldo a contratar,decimal.Decimal
+Planilha1 (2),R$ Garantia Saldo Realista,decimal.Decimal
+Planilha1 (2),R$ Garantia Saldo Pessimista,decimal.Decimal
+Planilha1 (2),Dono de Negócio,string
+Planilha1 (2),Viabilidade (Originação),string
+Planilha1 (2),Líder Engenharia,string
+Planilha1 (2),Coordenador do Contrato,string
+Planilha1 (2),Orçamentista Responsável,string
+Planilha1 (2),Planejamento Desembolso,string
+Planilha1 (2),Suprimentos – Aquisição de Insumo,string
+Planilha1 (2),Suprimentos – Pacotes de Serviço,string
+Planilha1 (2),Líder Aprovação,string
+Planilha1 (2),Desenvolvimento do Produto,string
+Planilha1 (2),Projetos Complementares,string
+Planilha1 (2),Coordenação Ambiental,string
+Planilha1 (2),Coordenação Jurídica,string
+Planilha1 (2),Líder Comercial,string
+Planilha1 (2),Contato Local,string
+Planilha1 (2),% Previsão AcumuladaBaseline 0,Float64
+Planilha1 (2),% Física  Acumulada,Float64
+Planilha1 (2),% Financeira Acumulada(por Orçado B0),Float64
+Planilha1 (2),Governança,string
+Planilha1 (2),Total,object
+Planilha1 (2),% p/ Conclusão,object
+Resumo Financeiro do Empreendim,Empreendimento,string
+Resumo Financeiro do Empreendim,Subitem,string
+Resumo Financeiro do Empreendim,Pacote de Serviços,string
+Resumo Financeiro do Empreendim,Baseline 0,decimal.Decimal
+Resumo Financeiro do Empreendim,Escopo Contratado,decimal.Decimal
+Resumo Financeiro do Empreendim,% Escopo Contratado,Float64
+Resumo Financeiro do Empreendim,Escopo Contratado Pago no Mês,decimal.Decimal
+Resumo Financeiro do Empreendim,Escopo Contratado Pago Acumulado,decimal.Decimal
+Resumo Financeiro do Empreendim,Tendência OrçamentáriaDif Baseline c/ INCC + Escopo Contratado,decimal.Decimal
+Resumo Financeiro do Empreendim,Tendência Custo por Unidade (R$),decimal.Decimal
+Resumo Financeiro do Empreendim,Tendência Custo por m² (ALV) (R$),decimal.Decimal
+Resumo Financeiro do Empreendim,Item/Total (%)Baseline 0,Float64
+Resumo Financeiro do Empreendim,% Previsão de Evolução Física AcumuladaBaseline 0,Float64
+Resumo Financeiro do Empreendim,% Previsão de Evolução Física AcumuladaBaseline Atual,Float64
+Resumo Financeiro do Empreendim,% Acompanhamento da Evolução Física Acumulada,Float64
+Resumo Financeiro do Empreendim,% Apuração da Evolução Financeira Acumulada(por Orçado B0),Float64
+RealEstateCo,Empreendimento,string
+RealEstateCo,Setor apontante do Risco,string
+RealEstateCo,Área Interna do Setor,string
+RealEstateCo,Descrever Risco,string
+RealEstateCo,Status do Risco,string
+RealEstateCo,Probabilidade do Risco,Float64
+RealEstateCo,Impacto / Severidade do Risco,Int64
+RealEstateCo,Causa do Risco,string
+RealEstateCo,Consequência / Impacto,string
+RealEstateCo,Plano de Ação,string
+RealEstateCo,Status do Plano de Ação,string
+RealEstateCo,Prazo Original,datetime64[ns]
+RealEstateCo,Prazo Reprogramado ,datetime64[ns]
+RealEstateCo,Data Status de Conclusão,datetime64[ns]
+RealEstateCo,Responsável Pelo Plano de Ação,string
+database,Impacto / Severidade,string
+database,Probabilidade,string
+database,Resposta,string
+database,Descrição,string
+database,Setor Serv+,string
+database,Column9,string
+database,Dono de Negócio,string
+database,Status do Plano de Ação,string
+editais a abrir,Empreendimento,string
+editais a abrir,Próximas Contratações,string
+editais a abrir,Saldo Orçamentário Corrigido para Contratar,decimal.Decimal
+editais a abrir,Previsão de Abertura do Edital,datetime64[ns]
+editais a abrir,Situação para Acontecer,string
+editais a abrir,% de Escopo a Contratar,Float64
+editais a abrir,Column5,string
+editais a abrir,Column7,string
+editais a abrir,Column9,string
+editais a abrir,Previsão de Execução,string

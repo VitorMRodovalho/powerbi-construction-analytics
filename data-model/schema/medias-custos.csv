@@ -1,0 +1,115 @@
+TableName,ColumnName,PandasDataType
+AppEAP,Serviço,string
+AppEAP,subservico,string
+AppEAP,ValorItemEAP,Int64
+AppEAP,__PowerAppsId__,string
+AppQtLoteamento,Medida,string
+AppQtLoteamento,Valor,Int64
+AppQtLoteamento,__PowerAppsId__,string
+Categorias de Serviços,id,Int64
+Categorias de Serviços,nome,string
+Concorrências,id,Int64
+Concorrências,id_loteamento,string
+Concorrências,data,datetime64[ns]
+Concorrências,categoria,Int64
+Concorrências,nome_categoria,object
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Ano,object
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,MonthNo,object
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Mês,object
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,QuarterNo,object
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Trimestre,object
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Dia,object
+EAP,codigo_de_subservico,string
+EAP,codigo_de_servico,string
+EAP,subservico,string
+EAP,unidade,string
+EAP,Serviço,object
+Fornecedores,id,Int64
+Fornecedores,nome,string
+Fornecedores,estado,string
+Fornecedores - Concorrências e Vitórias,id_fornecedor,Int64
+Fornecedores - Concorrências e Vitórias,categoria,Int64
+Fornecedores - Concorrências e Vitórias,n_concorrencias,Int64
+Fornecedores - Concorrências e Vitórias,n_vitorias,Int64
+Fornecedores - Concorrências e Vitórias,nome_fornecedor,object
+INCC,indice,Float64
+INCC,data,datetime64[ns]
+INCC,valor,Float64
+IPCA,indice,Float64
+IPCA,data,datetime64[ns]
+IPCA,valor,Float64
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Ano,object
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,MonthNo,object
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Mês,object
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,QuarterNo,object
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Trimestre,object
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Dia,object
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Ano,object
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,MonthNo,object
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Mês,object
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,QuarterNo,object
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Trimestre,object
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Dia,object
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Ano,object
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,MonthNo,object
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Mês,object
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,QuarterNo,object
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Trimestre,object
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Dia,object
+Loteamentos,id,string
+Loteamentos,nome,string
+Loteamentos,estado,string
+Loteamentos,cidade,string
+Loteamentos,n_lotes,Int64
+Loteamentos,area_total_lotes,Float64
+Loteamentos,area_total_loteamento,Float64
+Loteamentos,lote_por_area_loteamento,object
+Loteamentos,tamanho_lotes,object
+Loteamentos,area_lotes_por_area_loteamento,object
+Loteamentos,media_aproveitamento_area_loteada,object
+Loteamentos,dp_aproveitamento_area_loteada,object
+Loteamentos,rank_aproveitamento_area_loteada,object
+Loteamentos,area_total_verde,Float64
+Loteamentos,area_preservacao_ambiental,Float64
+Loteamentos,area_verde_municipal,Float64
+Loteamentos,area_parcelavel,Float64
+Loteamentos,area_institucional,Float64
+Loteamentos,area_pavimento,Float64
+Orçamentos,fornecedor,Int64
+Orçamentos,concorrencia,Int64
+Orçamentos,codigo_de_subservico,string
+Orçamentos,custo_unitario,decimal.Decimal
+Orçamentos,custo_total,decimal.Decimal
+Orçamentos,custo_unitario_corrigido_incc,object
+Orçamentos,custo_total_corrigido_incc,object
+Orçamentos,custo_unitario_corrigido_ipca,object
+Orçamentos,custo_total_corrigido_ipca,object
+Orçamentos,custo_por_lote_corrigido_incc,object
+Orçamentos,custo_por_m2_lote_corrigido_incc,object
+Orçamentos,custo_por_lote_corrigido_ipca,object
+Orçamentos,custo_por_m2_lote_corrigido_ipca,object
+Orçamentos,media_custo_unitario_incc,object
+Orçamentos,dp_custo_unitario_incc,object
+Orçamentos,media_custo_unitario_ipca,object
+Orçamentos,dp_custo_unitario_ipca,object
+Orçamentos,rank_custo_unitario,object
+Orçamentos,public.fornecedor.nome,string
+Orçamentos,custo_unitario_incc_por_area_loteamento,object
+Participantes das Concorrências,id_fornecedor,Int64
+Participantes das Concorrências,id_concorrencia,Int64
+Quantidade de Subserviço por Concorrência,id_concorrencia,Int64
+Quantidade de Subserviço por Concorrência,codigo_de_subservico,string
+Quantidade de Subserviço por Concorrência,quantidade,Float64
+Quantidade de Subserviço por Concorrência,quantidade_por_lote,object
+Quantidade de Subserviço por Concorrência,quantidade_por_m2_lote,object
+Quantidade de Subserviço por Concorrência,quantidade_por_area_loteamento,object
+Quantidade de Subserviço por Concorrência,unidade,object
+Quantidade de Subserviço por Concorrência,subservico,object
+Serviços EAP,codigo_de_servico,string
+Serviços EAP,servico,string
+Vencedores das Concorrências,id_fornecedor,Int64
+Vencedores das Concorrências,id_concorrencia,Int64
+Índice INCC Concorrência,id_concorrencia,Int64
+Índice INCC Concorrência,indice_incc,Float64
+Índice IPCA Concorrência,id_concorrencia,Int64
+Índice IPCA Concorrência,indice_ipca,Float64

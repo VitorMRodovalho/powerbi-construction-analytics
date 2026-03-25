@@ -1,0 +1,2 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+Avanco Físico de Obra,Empreendimento,Base,Empreendimento,1,M:1,Single,172,,0

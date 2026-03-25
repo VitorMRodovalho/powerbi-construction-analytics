@@ -1,0 +1,7 @@
+TableName,ColumnName,Expression
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Ano,YEAR([Date])
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,MonthNo,MONTH([Date])
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Mês,"FORMAT([Date], ""MMMM"")"
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,QuarterNo,INT(([MonthNo] + 2) / 3)
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Trimestre,"""Trim "" & [QuarterNo]"
+DateTableTemplate_efb794ca-a0b7-492c-9045-c83925b04097,Dia,DAY([Date])

@@ -1,0 +1,74 @@
+FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
+Fora do Prazo,Data do Processo + 15 dias,,,1,M:1,Single,665.0,,0
+Fora do Prazo,Data do Processo,,,1,M:1,Single,665.0,,0
+Contas a Pagar,Vencimento,,,1,M:1,Single,1800.0,,0
+Fracao Ideal,DataCad_unid,,,1,M:1,Single,193.0,,0
+Fracao Ideal,DataEntregaChaves_unid,,,1,M:1,Single,6.0,,0
+dCalendário,DATA,,,1,M:1,Single,14977.0,,0
+dCalendário,DT REFERENCIA,,,1,M:1,Single,495.0,,0
+dCalendário,DT ATUALIZAÇÃO,,,1,M:1,Single,4.0,,0
+Contas a Pagar,Empresa,Empresas,Codigo_emp,1,M:1,Single,106.0,,0
+Fracao Ideal,Empresa_unid,Empresas,Codigo_emp,1,M:1,Single,66.0,,0
+Saldos Gerenciais,Empresa_sdcc,Empresas,Codigo_emp,1,M:1,Single,99.0,,0
+Fora do Prazo,Empresa_pag,Empresas,Codigo_emp,1,M:1,Single,96.0,,0
+Juros e Multas,empresa_pag,Empresas,Codigo_emp,1,M:1,Single,95.0,,0
+Saldos Gerenciais,Data_sdcc,dCalendário,DATA,1,M:1,Single,2471.0,,0
+Contas Recebidas,Data Deposito,dCalendário,DATA,1,M:1,Single,1903.0,,0
+Contas a Pagar,Prorrogação,dCalendário,DATA,1,M:1,Single,1379.0,,0
+Juros e Multas,dataemissao_pag,dCalendário,DATA,1,M:1,Single,876.0,,0
+Juros e Multas,DataVencParc_Pag,,,1,M:1,Single,1129.0,,0
+Contas Recebidas,empresa_rec,Empresas,Codigo_emp,1,M:1,Single,66.0,,0
+Teste,,,,1,M:1,Single,189.0,,0
+Fora do Prazo,DataEmissao_Pag,dCalendário,DATA,1,M:1,Single,257.0,,0
+Processos de Pagamento,DataDocFiscal,,,1,M:1,Single,1627.0,,0
+Processos de Pagamento,DataAprovData,,,1,M:1,Single,1654.0,,0
+Processos de Pagamento,DataConfValor,,,1,M:1,Single,1688.0,,0
+Processos de Pagamento,DataConfQuantidade,,,1,M:1,Single,1716.0,,0
+Processos de Pagamento,DataConfirmacaoPgto,,,1,M:1,Single,1169.0,,0
+Processos de Pagamento,DataVencimento,,,1,M:1,Single,3531.0,,0
+Processos de Pagamento,Empresa_proc,Empresas,Codigo_emp,1,M:1,Single,127.0,,0
+Processos de Pagamento,DataCadastro,dCalendário,DATA,1,M:1,Single,1757.0,,0
+Processos de Pagamento,DataPagamento,,,1,M:1,Single,2764.0,,0
+Processos de Pagamento,User_Proc,Sócios,Login_usr,1,M:1,Single,341.0,,0
+Consulta1,DtPagParc_Proc,,,1,M:1,Single,1372.0,,0
+Consulta1,DataConfDt_Proc,,,1,M:1,Single,1485.0,,0
+Consulta1,DataConfVl_Proc,,,1,M:1,Single,2032.0,,0
+Consulta1,DataConfQdade_Proc,,,1,M:1,Single,2697.0,,0
+Consulta1,DtDocFisc_Proc,,,1,M:1,Single,634.0,,0
+Consulta1,DtEnvio_Proc,,,1,M:1,Single,30.0,,0
+Consulta1,DataAprovEmissao_proc,,,1,M:1,Single,514.0,,0
+Consulta1,DataInicioCorrecao_Proc,,,1,M:1,Single,3.0,,0
+Consulta1,Data_Proc,,,1,M:1,Single,613.0,,0
+Consulta1,Desc_emp,Empresas,Desc_Emp,1,M:1,Single,94.0,,0
+Consulta1,DtVencParc_Proc,dCalendário,DATA,1,M:1,Single,1790.0,,0
+0-DVQ,Dt. Prorrogação,,,1,M:1,Single,1296.0,,0
+0-DVQ,Dt. Vencimento,,,1,M:1,Single,1697.0,,0
+1-Emissão Pgto,Data Prorrogação,,,1,M:1,Single,34.0,,0
+2-Medição Contrato,Dt. geração,,,1,M:1,Single,40.0,,0
+3-Simulação de Cotação,Data,,,1,M:1,Single,39.0,,0
+3-Simulação de Cotação,Vencimento,,,1,M:1,Single,34.0,,0
+4-Confirmação Cotação,Dt. Vencimento,,,1,M:1,Single,8.0,,0
+4-Confirmação Cotação,Quando,,,1,M:1,Single,8.0,,0
+5-Contratos de Mat e Serv,Início,,,1,M:1,Single,339.0,,0
+5-Contratos de Mat e Serv,Fim,,,1,M:1,Single,338.0,,0
+7-Extra-Planejado,Data,,,1,M:1,Single,22.0,,0
+Acomp Entrega,Compra,,,1,M:1,Single,183.0,,0
+Acomp Entrega,Quando,,,1,M:1,Single,183.0,,0
+Acomp Entrega,Data Prevista,,,1,M:1,Single,184.0,,0
+Usuarios,DataCad_usr,,,1,M:1,Single,337.0,,0
+Usuarios,DataAlt_usr,,,1,M:1,Single,216.0,,0
+Usuarios Departamento,DataCad_usr,,,1,M:1,Single,336.0,,0
+Usuarios Departamento,Data,,,1,M:1,Single,215.0,,0
+Usuarios Departamento,Login,Usuarios,Login,1,M:1,Single,818.0,,0
+Hieraquia,Líder de R.E,0-DVQ,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,1-Emissão Pgto,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,2-Medição Contrato,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,3-Simulação de Cotação,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,4-Confirmação Cotação,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,5-Contratos de Mat e Serv,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,6-Aprovação Pedido,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,7-Extra-Planejado,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,Acomp Entrega,LR,1,M:M,Both,,,0
+Hieraquia,Líder de R.E,Emprendimentos Responsáveis UAU,Líder de R.E,1,M:M,Both,,,0
+Emprendimentos Responsáveis UAU,Cliente Empreendedor,Usuarios,Cliente,1,M:M,Both,,,0
+Usuarios,Login,Sócios,Login_usr,1,1:1,Both,818.0,1305.0,0

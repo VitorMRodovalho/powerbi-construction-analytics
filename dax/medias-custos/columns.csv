@@ -1,0 +1,55 @@
+TableName,ColumnName,Expression
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Ano,YEAR([Date])
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,MonthNo,MONTH([Date])
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Mês,"FORMAT([Date], ""MMMM"")"
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,QuarterNo,INT(([MonthNo] + 2) / 3)
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Trimestre,"""Trim "" & [QuarterNo]"
+DateTableTemplate_21788c30-6a78-4e86-bfe0-83640672d4a6,Dia,DAY([Date])
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Ano,YEAR([Date])
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,MonthNo,MONTH([Date])
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_71eb910c-93b1-4833-8bcf-74c0695eaf9f,Dia,DAY([Date])
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Ano,YEAR([Date])
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,MonthNo,MONTH([Date])
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_eb9e19db-5380-4ea1-9973-422834e7dcc5,Dia,DAY([Date])
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Ano,YEAR([Date])
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,MonthNo,MONTH([Date])
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Mês,"FORMAT([Date], ""MMMM"")"
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,QuarterNo,INT(([MonthNo] + 2) / 3)
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Trimestre,"""Trim "" & [QuarterNo]"
+LocalDateTable_951055bf-7caa-4a86-9867-f2a15cee1add,Dia,DAY([Date])
+Orçamentos,custo_unitario_corrigido_incc,'Orçamentos'[custo_unitario] * RELATED('Índice INCC Concorrência'[indice_incc])
+Orçamentos,custo_total_corrigido_incc,'Orçamentos'[custo_total] * RELATED('Índice INCC Concorrência'[indice_incc])
+Orçamentos,custo_unitario_corrigido_ipca,'Orçamentos'[custo_unitario] * RELATED('Índice IPCA Concorrência'[indice_ipca])
+Orçamentos,custo_total_corrigido_ipca,'Orçamentos'[custo_total] * RELATED('Índice IPCA Concorrência'[indice_ipca])
+Orçamentos,custo_por_lote_corrigido_incc,'Orçamentos'[custo_total_corrigido_incc] / RELATED('Loteamentos'[n_lotes])
+Orçamentos,custo_por_m2_lote_corrigido_incc,'Orçamentos'[custo_total_corrigido_incc] / RELATED('Loteamentos'[area_total_lotes])
+Orçamentos,custo_por_lote_corrigido_ipca,'Orçamentos'[custo_total_corrigido_ipca] / RELATED(Loteamentos[n_lotes])
+Orçamentos,custo_por_m2_lote_corrigido_ipca,'Orçamentos'[custo_total_corrigido_ipca] / RELATED(Loteamentos[area_total_lotes])
+Orçamentos,media_custo_unitario_incc,"CALCULATE(AVERAGE('Orçamentos'[custo_unitario_corrigido_incc]), FILTER('Orçamentos', 'Orçamentos'[codigo_de_subservico] = EARLIER('Orçamentos'[codigo_de_subservico])))"
+Orçamentos,dp_custo_unitario_incc,"CALCULATE(STDEV.P('Orçamentos'[custo_unitario_corrigido_incc]), FILTER('Orçamentos', 'Orçamentos'[codigo_de_subservico] = EARLIER('Orçamentos'[codigo_de_subservico])))"
+Orçamentos,media_custo_unitario_ipca,"CALCULATE(AVERAGE('Orçamentos'[custo_unitario_corrigido_ipca]), FILTER('Orçamentos', 'Orçamentos'[codigo_de_subservico] = EARLIER('Orçamentos'[codigo_de_subservico])))"
+Orçamentos,dp_custo_unitario_ipca,"CALCULATE(STDEV.P('Orçamentos'[custo_unitario_corrigido_ipca]), FILTER('Orçamentos', 'Orçamentos'[codigo_de_subservico] = EARLIER('Orçamentos'[codigo_de_subservico])))"
+Orçamentos,rank_custo_unitario,"IF(([custo_unitario_corrigido_incc] > ([media_custo_unitario_incc] + 2 * [dp_custo_unitario_incc])) || ([custo_unitario_corrigido_incc] < ([media_custo_unitario_incc] - 2 * [dp_custo_unitario_incc])) , ""C"", IF(([custo_unitario_corrigido_incc] > ([media_custo_unitario_incc] + [dp_custo_unitario_incc])) || ([custo_unitario_corrigido_incc] < ([media_custo_unitario_incc] - [dp_custo_unitario_incc])) , ""B"", ""A""))"
+EAP,Serviço,RELATED('Serviços EAP'[servico])
+Fornecedores - Concorrências e Vitórias,nome_fornecedor,RELATED(Fornecedores[nome])
+Quantidade de Subserviço por Concorrência,quantidade_por_lote,'Quantidade de Subserviço por Concorrência'[quantidade] / RELATED(Loteamentos[n_lotes])
+Quantidade de Subserviço por Concorrência,quantidade_por_m2_lote,'Quantidade de Subserviço por Concorrência'[quantidade] / RELATED(Loteamentos[area_total_lotes])
+Loteamentos,lote_por_area_loteamento,Loteamentos[n_lotes] / Loteamentos[area_total_loteamento]
+Loteamentos,tamanho_lotes,Loteamentos[area_total_lotes]/Loteamentos[n_lotes]
+Concorrências,nome_categoria,RELATED('Categorias de Serviços'[nome])
+Loteamentos,area_lotes_por_area_loteamento,Loteamentos[area_total_lotes]/Loteamentos[area_total_loteamento]
+Quantidade de Subserviço por Concorrência,quantidade_por_area_loteamento,'Quantidade de Subserviço por Concorrência'[quantidade] / RELATED(Loteamentos[area_total_loteamento])
+Orçamentos,custo_unitario_incc_por_area_loteamento,"CONVERT('Orçamentos'[custo_unitario_corrigido_incc], DOUBLE) / RELATED(Loteamentos[area_total_loteamento])"
+Quantidade de Subserviço por Concorrência,unidade,RELATED(EAP[unidade])
+Loteamentos,media_aproveitamento_area_loteada,"CALCULATE(AVERAGE('Loteamentos'[area_lotes_por_area_loteamento]), FILTER('Loteamentos', 'Loteamentos'[estado] = EARLIER('Loteamentos'[estado])))"
+Loteamentos,dp_aproveitamento_area_loteada,"CALCULATE(STDEV.P('Loteamentos'[area_lotes_por_area_loteamento]), FILTER('Loteamentos', 'Loteamentos'[estado] = EARLIER('Loteamentos'[estado])))"
+Loteamentos,rank_aproveitamento_area_loteada,"IF(([area_lotes_por_area_loteamento] > ([media_aproveitamento_area_loteada] + [dp_aproveitamento_area_loteada])) || ([area_lotes_por_area_loteamento] < ([media_aproveitamento_area_loteada] - [dp_aproveitamento_area_loteada])) , ""C"", 
+IF(([area_lotes_por_area_loteamento] > ([media_aproveitamento_area_loteada] + 0.5 * [dp_aproveitamento_area_loteada])) || ([area_lotes_por_area_loteamento] < ([media_aproveitamento_area_loteada] - 0.5 * [dp_aproveitamento_area_loteada])) , ""B"", 
+""A""))"
+Quantidade de Subserviço por Concorrência,subservico,RELATED(EAP[subservico])
